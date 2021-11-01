@@ -12,4 +12,5 @@ Greetings! I am Xiaoru Zhang!
 
 Research Experience 
 ======
-QKD @TAMU advised by Prof.Zubairy
+- QKD @TAMU advised by Prof. Zubairy
+- Quantum optics @XJTU advised by Prof. Pei Zhang
