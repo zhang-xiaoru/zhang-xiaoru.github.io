@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Xiaoru Zhang"
+title: "About Xiaoru Zhang"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -10,4 +10,6 @@ redirect_from:
 
 Greetings! I am Xiaoru Zhang!
 
-hello
+Research Experience 
+======
+QKD @TAMU advised by Prof.Zubairy
