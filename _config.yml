@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Xiaoru Zhang"
 title_separator          : "-"
 name                     : &name "Xiaoru Zhang"
-description              : &description "Senior Undergrad at XJTU"
+description              : &description "Senior Undergrad at Xi'an Jiaotong University"
 url                      : https://zhang-xiaoru.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zhang-xiaoru.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Xiaoru Zhang"
   avatar           : "zxr.png"
-  bio              : "Physics Undergrad at Xi'an Jiaotong University, I'am currently "
+  bio              : "Physics Undergrad at Xi'an Jiaotong University, I'am currently applying for PhD programe in physics that fit my interest"
   location         : "Xi'an, Shaanxi Province, China"
   employer         :
   pubmed           : 
