@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Greetings! I am Xiaoru Zhang!
+Greetings! I am Xiaoru Zhang, a senior undergraduate student at Xi'an Jiaotong University. 
 
 Research Experience 
 ======
