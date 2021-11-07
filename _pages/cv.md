@@ -11,19 +11,20 @@ redirect_from:
 
 Education
 ======
-* B.S. in Physics, Xi'an Jiaotong University, 2022 (expected)
+* B.S. in Physics, Xi'an Jiaotong University, Aug.2018-Aug.2022 (expected)
+* None-degree Seeking Programe in Physics, Texas A&M University, Jan.2021-Jun.2021
 
 Research experience
 ======
-* Summer 2020 - now: Research Intern
-  * Xi'an Jiaotong University
-  * Quantum Optics
-  * Supervisor: Professor Pei Zhang[https://gr.xjtu.edu.cn/web/zhangpei]
+* (Summer 2020 - now) **Researcher** 
+  * MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter@Xi’an Jiaotong University
+  * Quantum Optics/Structured light/Orbital Angular Momentum of Light/Rotational Doppler Effect
+  * Supervisor: Professor.[Pei Zhang](https://gr.xjtu.edu.cn/web/zhangpei)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* (Jun.2021-Jun.2021): **Online Research Internship**
+  * Institute For Quantum Science & Engineering@Texas A&M University
+  * Quantum computing/Quantum information
+  * Supervisor: Professor.[M. Suhail Zubairy](https://physics.tamu.edu/directory/m-suhail-zubairy/)
   
 Skills
 ======
