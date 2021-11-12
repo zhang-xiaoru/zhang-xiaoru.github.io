@@ -13,4 +13,4 @@ Greetings! I am Xiaoru Zhang, a senior undergraduate student at Xi'an Jiaotong U
 Research Experience 
 ======
 - QKD @TAMU advised by Prof. Zubairy
-- Quantum optics @XJTU advised by Prof. [Pei Zhang](https://gr.xjtu.edu.cn/en/web/zhangpei/)
+- Quantum optics @XJTU advised by Prof. <a href="https://gr.xjtu.edu.cn/en/web/zhangpei" target="_blank">Pei Zhang</a>
