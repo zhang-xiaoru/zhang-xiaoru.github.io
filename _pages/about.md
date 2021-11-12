@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Greetings! I am Xiaoru Zhang, a senior undergraduate student at Xi'an Jiaotong University. 
+Greetings! I am Xiaoru Zhang, a senior undergraduate student at Xi'an Jiaotong University, majoring in Physics(Honors Programe). I work in the MOE Key Laboratory for Nonequilibrium Synthesis and Modulation. My reasearch focuses on the Quantum Optics\Structered Light\Orbital Angular Momentum of Light\Roatational Doppler Effect advised by Professor [Pei Zhang](https://gr.xjtu.edu.cn/en/web/zhangpei).  
 
 Research Experience 
 ======
