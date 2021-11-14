@@ -12,4 +12,4 @@ Greetings! I am Xiaoru Zhang, a senior undergraduate student at Xi'an Jiaotong U
 
 Research Interest 
 ======
-I am intersted in 
+I am bordly interested in atomics molecular and optical physics, nonlinear optics, quantum computing/information and condensed matter physics in general. My previouse reaserch fouces on the optical vortex, vector vortex and their application in quantum information, condensed matter physics and optical imaging.   
