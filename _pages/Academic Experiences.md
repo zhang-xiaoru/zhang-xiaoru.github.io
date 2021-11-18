@@ -2,7 +2,7 @@
 layout: archive
 title: "Academic Experiences"
 permalink: /Academic Experiences/
-author_profile: true
+author_profile: False
 ---
 Under Construction
 {% if author.googlescholar %}
