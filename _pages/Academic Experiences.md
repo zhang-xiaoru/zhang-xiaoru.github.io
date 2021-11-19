@@ -4,5 +4,6 @@ title: "Academic Experiences"
 permalink: /Academic Experiences/
 author_profile: True
 ---
-Under Construction
+Education
+===
 
