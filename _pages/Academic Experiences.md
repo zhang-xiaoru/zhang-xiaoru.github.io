@@ -6,6 +6,7 @@ author_profile: True
 ---
 Education
 ===
+
 Xi'an Jiaotong University (Aug.2018--Jun.2022)
 ---
 
@@ -19,7 +20,10 @@ I am an exchange student at Texas A&M University in fall semester, 2020. My exch
 Research
 ===
 
-#### __Researcher__, MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter@XJTU,     Advisor: <a href="https://gr.xjtu.edu.cn/en/web/zhangpei/english" target="_blank">Pei Zhang</a>
+### Researcher(Mar.2021--Now), Xi'an Jiaotong University, &emsp; Advisor: <a href="https://gr.xjtu.edu.cn/en/web/zhangpei/english" target="_blank">Pei Zhang</a>
+
+------------------
+I have been working on quantum optics research at ___MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter___ in XJTU advised by Prof. Pei Zhang. My research focused on the properties of Orbital Angular Momentum (OAM) of light and its application in condensed matter physics, quantum information science, optical image, etc. My recent project study the Rotational Doppler Effect of OAM light, proposed an efficent mode detection and demultiplexing design. 
 
 
 
