@@ -25,9 +25,15 @@ Researcher(Mar.2021--Now), Xi'an Jiaotong University, &emsp; Advisor: <a href="h
 
 ------------------
 I have been working on quantum optics research at ___MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter___ in XJTU advised by Prof. Pei Zhang. My research focused on the properties of Orbital Angular Momentum (OAM) of light and its application in condensed matter physics, quantum information science, optical image, etc. My recent project study the Rotational Doppler Effect of OAM light, proposed an efficent mode detection and demultiplexing design. 
-* Orbital Angular Momentum of Light
+### Optical Vortex and Vector Vortex
+Photons have orbital angular momentum (OAM) and spin angular momentum (SLM). While spin angular momentum of light is related to its polarization state, its orbital angular momentum is linked to the spatial phase distribution. An important feature of light field with OAM is the helical phase distribution of the wave front, so OAM light is also refered as optical vortex. Compared to the OAM light field with uniform distribution of polarization, the vector light field has more complex properties, and he combines the orbital and spin angular momentum of light. For a vector light field, the polarization state is classically entangled with the OAM state, and this entanglement is reflected in the inhomogeneous paranormal distribution of the wavefront.
+
+
+### Rotational Doppler Effect
+### My Project
 
 
 Undergraduate Research Programe(Jan.2021--Jun.2021), Texas A&M University, &emsp; Advisor: <a href="https://physics.tamu.edu/directory/m-suhail-zubairy/" target="_blank">M. Suhail Zubairy</a>
+---
 
 
