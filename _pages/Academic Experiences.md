@@ -20,8 +20,10 @@ I am an exchange student at Texas A&M University in fall semester, 2020. My exch
 Research
 ===
 
+
 Researcher(Mar.2021--Now), Xi'an Jiaotong University, &emsp; Advisor: <a href="https://gr.xjtu.edu.cn/en/web/zhangpei/english" target="_blank">Pei Zhang</a>
 ---
+
 
 ------------------
 I have been working on quantum optics research at ___MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter___ in XJTU advised by Prof. Pei Zhang. My research focused on the properties of Orbital Angular Momentum (OAM) of light and its application in condensed matter physics, quantum information science, optical image, etc. My recent project study the Rotational Doppler Effect of OAM light, proposed an efficent mode detection and demultiplexing design. 
@@ -30,7 +32,9 @@ Photons have orbital angular momentum (OAM) and spin angular momentum (SLM). Whi
 
 
 ### Rotational Doppler Effect
-### My Project
+When an OAM light illuminates a spinning object with angular velocity𝜔, the reflected light will carrya frequency shift proportionates to the variation of topological charge. RDE can beobserved in both monochromatic light and white-light and enables plentiful application in the detection of spinning objects. RDE also possesses potential in analyzing OAM spectrum. The OAM spectrum analyzer can deduct a full parametric description based on anoptical beating signal.
+
+### Mode detection and demultiplexing scheme of vector beam based on RDE
 
 
 Undergraduate Research Programe(Jan.2021--Jun.2021), Texas A&M University, &emsp; Advisor: <a href="https://physics.tamu.edu/directory/m-suhail-zubairy/" target="_blank">M. Suhail Zubairy</a>
