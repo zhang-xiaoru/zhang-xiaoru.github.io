@@ -39,7 +39,7 @@ When an OAM light illuminates a spinning object with angular velocity $\omega$, 
 
 Frequency shift as the result of rotational Doppler effect
 
-<img src="/images/RDE_demo.png" alt="RDE_demo.png" style="zoom:75%;" />
+<img src="/images/RDE_demo.png" alt="RDE_demo.png" style="zoom:50%;" />
 
 ### Mode detection and demultiplexing scheme of vector beam based on RDE
 When considering the rotational Dopper effect of CVBs, the fact that CVB consistes of two different OAM mode will induced an beating frequency in the collected intensity. Different modes in the scattered light is orthogonal to each other so that the beating effect only occurs within the same OAM basis. Such properties insure that the beating freuqnecy is porpoational to the TC of the incident CVB. If we collected the intensity of the fundamental mode of scattering light (TC=0), the visibility an initial phase of intensity bvariation will be regulated by the phase parameter of CVB. Phase anaylisis is also introduced to distinguish two CVBs with opposite TCs, which is usually degenerated in the beating frequency. Such properties can be applied in a quantitative, complete and simultaneous detection of CVB. 
