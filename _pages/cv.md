@@ -23,7 +23,7 @@ Research experience
 
 * (Jun.2021-Jun.2021): **Online Research Internship**
   * Institute For Quantum Science & Engineering@Texas A&M University
-  * Quantum computing/Quantum information
+  * Quantum computing/Quantum communication
   * Supervisor: Professor.[M. Suhail Zubairy](https://physics.tamu.edu/directory/m-suhail-zubairy/)
   
 Skills
