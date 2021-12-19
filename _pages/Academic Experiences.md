@@ -15,7 +15,7 @@ I am in my final year at Xi'an Jiaotong University, majoring in Honors Program i
 Texas A&M University (Jan.2021--Jun.2021)
 ---
 
-I am an exchange student at Texas A&M University in the fall semester, 2020. My exchange program has been delayed until spring semester 2021 due to the COVID-19 pandemic and was eventually conducted online. I have received a GPA of 4.0/4.0 at TAMU. My transcript at TAMU is available here. 
+I am an exchange student at Texas A&M University in the fall semester, 2020. My exchange program has been delayed until spring semester 2021 due to the COVID-19 pandemic and was eventually conducted online. I have received a GPA of 4.0/4.0 at TAMU. My transcript at TAMU is available [here](https://zhang-xiaoru.github.io/files/transcript_TAMU.pdf). 
 
 Research
 ===
