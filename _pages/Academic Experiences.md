@@ -4,7 +4,7 @@ title: ""
 permalink: /Academic Experiences/
 author_profile: True
 ---
-Education
+Education history
 ===
 
 Xi'an Jiaotong University (Aug.2018--Jun.2022)
