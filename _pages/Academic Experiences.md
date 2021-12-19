@@ -31,7 +31,7 @@ I have been working on quantum optics research at ___MOE Key Laboratory for None
 Photons have orbital angular momentum (OAM) and spin angular momentum (SAM). While spin angular momentum of light is related to its polarization state, its orbital angular momentum is linked to the spatial phase distribution. An important feature of light field with OAM is the helical phase distribution of the wavefront, so OAM light is also referred to as optical vortex. Compared to the OAM light field with uniform distribution of polarization, the vector beam or vector vortex has more complex properties, and it combines the orbital and spin angular momentum of light. For a vector beam, the polarization state is classically entangled with the OAM state, and this entanglement is reflected in the inhomogeneous paranormal distribution of the wavefront. Cylindrical vector beam (CVB), whose polarization districbution is polar symmetriced, is of great significance in variouse fields such as superresolution imating, optical-trapping and quantum information science.
 
 Spiral wavefront of OAM light
-<img src="\image\OAM_demo.jpg" style="zoom:50%;" />
+<img src="/image/OAM_demo.jpg" style="zoom:50%;" />
 ### Rotational Doppler Effect
 When an OAM light illuminates a spinning object with angular velocity $\omega$, the reflected light will carry a frequency shift proportionates to the variation of topological charge. RDE can be observed in both monochromatic light and white light and enables plentiful application in the detection of spinning objects. RDE also possesses potential in analyzing the OAM spectrum. The OAM spectrum analyzer can deduct a full parametric description based on an optical beating signal.
 
