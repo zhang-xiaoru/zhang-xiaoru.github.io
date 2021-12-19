@@ -32,7 +32,7 @@ Photons have orbital angular momentum (OAM) and spin angular momentum (SAM). Whi
 
 **Spiral wavefront of OAM light**
 
-<img src="/images/OAM_demo.png" style="zoom:25%;" />
+<img src="/images/OAM_demo.png" alt="OAM_demo.png" style="zoom:25%;" />
 
 ### Rotational Doppler Effect
 When an OAM light illuminates a spinning object with angular velocity $\omega$, the reflected light will carry a frequency shift proportionates to the variation of topological charge. RDE can be observed in both monochromatic light and white light and enables plentiful application in the detection of spinning objects. RDE also possesses potential in analyzing the OAM spectrum. The OAM spectrum analyzer can deduct a full parametric description based on an optical beating signal.
