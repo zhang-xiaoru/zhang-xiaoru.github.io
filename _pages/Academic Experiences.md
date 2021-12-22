@@ -51,6 +51,6 @@ Undergraduate Research Programe(Jan.2021--Jun.2021), Texas A&M University, &emsp
 ---
 
 ----------------------
-I have participated an undergraduate research programe at ***Texas A&M University***, where the participatants usually got the chance to study and carry out research for 1 or 2 semester. However, due to the effect of the on going COVID-19 pandamic, I took course at TAMU online and registered a reading course with Prof. M. Suhail Zubairy instead of research credit. 
+I have participated an undergraduate research programe at ***Texas A&M University***, where the participatants usually got the chance to study and carry out research for 1 or 2 semester. However, due to the effect of the on going COVID-19 pandamic, I took course at TAMU online and registered a reading course with Prof. M. Suhail Zubairy instead of research credit. During the course, I read Prof. Zubairy's new book _QUantum Mechanics for Beginners--with application to quantum communication and quantum computing (Oxford University Press, 2020)_ and assigned research pappers. I also conducted a project in direct quantum communication protocol. Learn more about my research through here. 
 
 
