@@ -23,7 +23,7 @@ Rotational Doppler Effect
 ---
 When an OAM light illuminates a spinning object with angular velocity $\omega$, the reflected light will carry a frequency shift proportionate to the variation of topological charge. RDE can be observed in both monochromatic light and white light and enables plentiful application in the detection of spinning objects. RDE also possesses potential in analyzing the OAM spectrum. The OAM spectrum analyzer can deduct a full parametric description based on an optical beating signal.
 
-Frequency shift as the result of rotational Doppler effect(*Light: Science & Application. 6, e16251 (2017)*)
+**Frequency shift as the result of rotational Doppler effect**(*Light: Science & Application. 6, e16251 (2017)*)
 
 <img src="/images/RDE_demo.png" alt="RDE_demo.png" style="zoom:50%;" />
 
@@ -40,5 +40,5 @@ Texas A&M University
 
 Direct secure quantum communication
 ---
-Quantum key distribution (QKD), ever since it was first proposed Bennett and Brassard in the famouse BB84 protocal, has develpoed fast both theoretically and experimentally. To complete the secure communication, the sender Bob must encrypt his mesage with a radom key that is transmitted through a quantum channel between ALice and Bob. Besides key distribution, a new class of quantum communication protocal called direct secure quantum communication (DSQC) has been proposed, where the mesage is deterministically sent through quantum channel. In 2004, Yan et al. (*Eur. Phys. J. B. 41, 75 (2004)*) proposed a direct secure communication using EPR pairs and quantum teleportation. In this deterministic scheme, the sender Bob uses a particle sequence to represent his message. Bob then uses an EPR pair shared with Alice to teleport his message. 
+Quantum key distribution (QKD), ever since it was first proposed by Bennett and Brassard in the famous BB84 protocol, has developed fast both theoretically and experimentally. To complete the secure communication, the sender Bob must encrypt his message with a random key transmitted through a quantum channel between Alice and Bob. Besides key distribution, a new class of quantum communication protocol called direct secure quantum communication (DSQC) has been proposed, where the message is deterministically sent through a quantum channel. In 2004, Yan et al. (*Eur. Phys. J. B. 41, 75 (2004)*) proposed a direct secure communication using EPR pairs and quantum teleportation. In this deterministic scheme, the sender Bob uses a particle sequence to represent his message. Bob then uses an EPR pair shared with Alice to teleport his message. Suche scheme is completely secure for direct communication for there is no transmission of qubits that carries information. 
 
