@@ -35,7 +35,7 @@ I have been working on quantum optics research at ___MOE Key Laboratory for None
 ### Publications
  
 <b><u><em>Detection and demultiplexing of cylindrical vector beams enabled by rotational Doppler effect</em></u></b>  
-<font color=gray size=2><em>Xiaoru Zhang</em> et al. (2021).</font>
+<font color=gray size=2><b><em>Xiaoru Zhang</em></b> et al. (2021).</font>
 
 Preprint avalible on *Arxiv*: [https://arxiv.org/abs/2109.09324](https://arxiv.org/abs/2109.09324)
 
