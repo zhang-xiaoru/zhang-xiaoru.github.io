@@ -28,7 +28,12 @@ Research experience
   
 Skills
 ======
-Under construction
+* **Languages**: C++/Python/C#/MATLAB
+* **Software**: MATLAB/LabVIEW/Mathematica/AutoCAD/Adobe illustrator/Photoshop
+* **Experimental skills**: 
+  * Spatial light modulator (SLM) manipulation using software like MATLAB
+  * MATLAB programming for automatic data acquisition
+  * generation and detection technique of structured light with OAM
 
 Publications
 ======
