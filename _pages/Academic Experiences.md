@@ -57,7 +57,7 @@ I have participated an undergraduate research programe at ***Texas A&M Universit
 * <b><u><em>Quantum Mechanics for Beginners -- Solution manual</em></u></b><br>
   <font color=gray size=2> <b><em>Xiaoru Zhang</em></b>, Yuchen Ma, <i>Supervisor</i>: Prof. M. Suhail Zubairy (2021). </font>
 
-  [Download the solution manual here](https://zhang-xiaoru.github.io/files/TAMU_report.pdf)
+  [Download the solution manual here](https://zhang-xiaoru.github.io/files/Solution_Manual.pdf)
 
 * <b><u><em>A simplified protocol of deterministic secure quantum communication using teleportation</em></u></b><br>
   <font color=gray size=2><b><em>Xiaoru Zhang</em></b> (2021). </font>
