@@ -34,9 +34,9 @@ I have been working on quantum optics research at ___MOE Key Laboratory for None
 
 ### Publications
 
-<u> ***Detection and demultiplexing of cylindrical vector beams enabled by rotational Doppler effect*** </u>
+<u><em>Detection and demultiplexing of cylindrical vector beams enabled by rotational Doppler effect</em></u>
 
-<font color=gray size=5>***Xiaoru Zhang*** et al. (2021).</font>
+<font color=gray size=10><em>Xiaoru Zhang</em> et al. (2021).</font>
 
 Preprint avalible on *Arxiv*: [https://arxiv.org/abs/2109.09324](https://arxiv.org/abs/2109.09324)
 
@@ -55,15 +55,15 @@ I have participated an undergraduate research programe at ***Texas A&M Universit
 
 ### Publications
 
-<u>***Quantum Mechanics for Beginners -- Solution manual***</u>
+<u><em>Quantum Mechanics for Beginners -- Solution manual</em></u>
 
-<font color=gray size=5> ***Xiaoru Zhang***, Yuchen Ma, *Supervisor*: Prof. M. Suhail Zubairy (2021). </font>
+<font color=gray size=10> <em>Xiaoru Zhang</em>, Yuchen Ma, <i>Supervisor</i>: Prof. M. Suhail Zubairy (2021). </font>
 
 [Download the solution manual here](https://zhang-xiaoru.github.io/files/TAMU_report.pdf)
 
-<u>***A simplified protocol of deterministic secure quantum communication using teleportation***</u>
+<u><em>A simplified protocol of deterministic secure quantum communication using teleportation</em></u>
 
-<font color=gray size=5> ***Xiaoru Zhang*** (2021). </font>
+<font color=gray size=10><em>Xiaoru Zhang</em> (2021). </font>
 
 [Download the manuscript here](https://zhang-xiaoru.github.io/files/TAMU_report.pdf)
 
