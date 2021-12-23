@@ -33,13 +33,13 @@ When considering the rotational Dopper effect of CVBs, the fact that CVB consist
 
 **Phase shift in intensity for two CVB modes with opposite spiral phase**
 
-<img src="/images/deg_demo.jpg" alt="deg_demo.jpg" style="zoom:30%" />
+<img src="/images/deg_demo.jpg" alt="deg_demo.jpg" style="zoom:40%" />
 
 One important application of CVB is mode-division multiplexing (MDM), where multiple orthogonal CVB modes are used as information carriers. Thus, demultiplexing of multi-mode CVB has become an interesting topic. When a multi-mode vector beam illuminates the spinning object, the correspondence between beating signals and mode spectrum is no longer one-to-one due to the presence of cross-beating between different modes. Using a rotating object whose harmonic components form an orthogonal relationship with the radial amplitude distribution of the incident beam, the effect of cross-terms is reduced. The phase of the intensity difference between the horizontal and vertical polarization of the dispersed light is used to demultiplex two degenerate modes. 
 
 **Beating signal for superimposed CVB modes of $\ell=1$ and $\ell=2$**
 
-<img src="/images/multi-demo.jpg" alt="multi-demo.jpg" style="zoom:30%" />
+<img src="/images/multi-demo.jpg" alt="multi-demo.jpg" style="zoom:40%" />
 
 Texas A&M University
 ===
