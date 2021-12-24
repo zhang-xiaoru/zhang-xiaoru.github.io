@@ -37,9 +37,9 @@ Skills
 
 Publications
 ======
-* **Detection and demultiplexing of cylindrical vector beams enabled by rotational Doppler effect**</br>
-  <font color=gray size=2><b><em>Xiaoru Zhang</em></b> et al. (2021).</font> Preprint avalible on *Arxiv*: [https://arxiv.org/abs/2109.09324](https://arxiv.org/abs/2109.09324)
-* **Quantum Mechanics for Beginners -- Solution manual**</br>
-  <font color=gray size=2> <b><em>Xiaoru Zhang</em></b>, Yuchen Ma, <i>Supervisor</i>: Prof. M. Suhail Zubairy (2021). </font>
-* **A simplified protocol of deterministic secure quantum communication using teleportation**</br>
-  <font color=gray size=2><b><em>Xiaoru Zhang</em></b> (2021). </font>
+* **Detection and demultiplexing of cylindrical vector beams enabled by rotational Doppler effect**
+  </br><font color=gray size=2><b><em>Xiaoru Zhang</em></b> et al. (2021).</font> Preprint avalible on *Arxiv*: [https://arxiv.org/abs/2109.09324] (https://arxiv.org/abs/2109.09324)
+* **Quantum Mechanics for Beginners -- Solution manual**
+  </br><font color=gray size=2> <b><em>Xiaoru Zhang</em></b>, Yuchen Ma, <i>Supervisor</i>: Prof. M. Suhail Zubairy (2021). </font>
+* **A simplified protocol of deterministic secure quantum communication using teleportation**
+  </br><font color=gray size=2><b><em>Xiaoru Zhang</em></b> (2021). </font>
