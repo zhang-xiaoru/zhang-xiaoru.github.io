@@ -13,3 +13,7 @@ Greetings! I am Xiaoru Zhang, a senior undergraduate student at Xi'an Jiaotong U
 Research Interest 
 ======
 I am broadly interested in atomics molecular and optical physics, nonlinear optics, quantum computing/information, and condensed matter physics in general. My previous research focuses on the optical vortex, vector vortex and their application in quantum information, condensed matter physics, and optical imaging.   
+
+News
+===
+* Our paper, "Detection and demultiplexing of cylindricalvector beams enabled by rotational Dopplereffect", is currently avalible on *Arxiv*: [https://arxiv.org/abs/2109.09324](https://arxiv.org/abs/2109.09324). Check out our [here](https://zhang-xiaoru.github.io/Research/).
