@@ -31,14 +31,15 @@ Mode detection and demultiplexing scheme of vector beam based on RDE
 ---
 When considering the rotational Dopper effect of CVBs, the fact that CVB consists of two different OAM modes will induce a beating frequency in the collected intensity. Different modes in the scattered light are orthogonal to each other so that the beating effect only occurs within the same OAM basis. Such properties ensure that the beating frequency is proportional to the TC of the incident CVB. If we collected the intensity of the fundamental mode of scattering light (TC=0), the visibility and initial phase of intensity variation will be regulated by the phase parameter of CVB. Phase analysis is also introduced to distinguish two CVBs with opposite TCs, which are usually degenerated in the beating frequency. Such properties can be applied in quantitative, complete, and simultaneous detection of CVB. 
 
-**Phase shift in intensity for two CVB modes with opposite topological charge**
+**Phase shift in intensity for two CVB modes with opposite topological charge**(*Arxiv: 2109.09324*)
 
 <img src="/images/deg_demo.jpg" alt="deg_demo.jpg" style="zoom:30%" />
 
 
 One important application of CVB is mode-division multiplexing (MDM), where multiple orthogonal CVB modes are used as information carriers. Thus, demultiplexing of multi-mode CVB has become an interesting topic. When a multi-mode vector beam illuminates the spinning object, the correspondence between beating signals and mode spectrum is no longer one-to-one due to the presence of cross-beating between different modes. Using a rotating object whose harmonic components form an orthogonal relationship with the radial amplitude distribution of the incident beam, the effect of cross-terms is reduced. The phase of the intensity difference between the horizontal and vertical polarization of the dispersed light is used to demultiplex two degenerate modes. 
 
-**Beating signal for superimposed CVB modes of $\ell=1$ and $\ell=2$**
+**Beating signal for superimposed CVB modes of $\ell=1$ and $\ell=2$**(*Arxiv: 2109.09324*)
+
 
 <img src="/images/multi-demo.jpg" alt="multi-demo.jpg" style="zoom:30%" />
 
