@@ -16,12 +16,12 @@ Education
 
 Research experience
 ======
-* (Summer 2020 - now): **Researcher** 
+* (May.2021 - Nov.2021): **Researcher** 
   * MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter@Xi’an Jiaotong University
   * Quantum Optics/Structured light/Orbital Angular Momentum of Light/Rotational Doppler Effect
   * Supervisor: Professor.[Pei Zhang](https://gr.xjtu.edu.cn/web/zhangpei)
 
-* (Jun.2021-Jun.2021): **Undergraduate research program (Online)**
+* (Jan.2021 - Jun.2021): **Undergraduate research program (Online)**
   * Institute For Quantum Science & Engineering@Texas A&M University
   * Quantum computing/Quantum communication/Direct secure communication
   * Supervisor: Professor.[M. Suhail Zubairy](https://physics.tamu.edu/directory/m-suhail-zubairy/)
