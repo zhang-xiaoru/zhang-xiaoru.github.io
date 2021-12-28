@@ -16,4 +16,5 @@ I am broadly interested in atomics molecular and optical physics, nonlinear opti
 
 News
 ===
-* Our paper, "Detection and demultiplexing of cylindricalvector beams enabled by rotational Dopplereffect", is currently avalible on *Arxiv*: [https://arxiv.org/abs/2109.09324](https://arxiv.org/abs/2109.09324). Check out our [here](https://zhang-xiaoru.github.io/Research/).
+* 2021/12 We have updated our paper, "Detection and demultiplexing of cylindricalvector beams enabled by rotational Dopplereffect", on *Arxiv*. Check out the latest version of our work [here](https://arxiv.org/abs/2109.09324). 
+* 2021/9 Our paper, "Vector beam mode detection based on rotational Doppler effect", is currently available one *Arxiv*. Check out our work [here](https://arxiv.org/abs/2109.09324)
