@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Xiaoru Zhang"
 title_separator          : "-"
 name                     : &name "Xiaoru Zhang"
-description              : &description "Senior Undergrad at Xi'an Jiaotong University"
+description              : &description "Ph.D. at the University of Texas at Austin in Physics"
 url                      : https://zhang-xiaoru.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zhang-xiaoru.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Xiaoru Zhang"
   avatar           : "zxr_personal.jpg"
-  bio              : "Physics undergrad at Xi'an Jiaotong University, I'm currently applying for PhD programe in physics that fit my interest."
-  location         : "Xi'an, Shaanxi Province, China"
+  bio              : "I am a Ph.D. at UT Austin in Physics. "
+  location         : "2515 Speedway, Austin, Tx"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : "albert.991@tamu.edu"
+  email            : "xiaoruzhang@utexas.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
