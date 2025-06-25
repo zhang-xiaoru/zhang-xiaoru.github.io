@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Xiaoru ZHang",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "xiaoruzhang@utexas.edu",
+    "phone": "(737) 420-4318",
+    "url": "https://zhang-xiaoru.github.io",
+    "summary": "Ph.D. candidate in computational/theoretical condensed matter physics.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "2515 Speed Way",
+      "postalCode": "TX 78705",
+      "city": "Austin",
       "countryCode": "US",
-      "region": "California"
+      "region": "Texas"
     },
     "profiles": [
       {
