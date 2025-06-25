@@ -193,7 +193,6 @@ exclude:
   - vendor
   - _data/repositories.yml
   - assets/json/resume.json
-  - .github/workflows/prettier.yml
 keep_files:
   - CNAME
   - .nojekyll
