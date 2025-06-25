@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zhang-xiaoru.github.io.# the subpath of your site, e.g. /blog/. Leave blank for root/sitemap.xml
+Sitemap: https://zhang-xiaoru.github.io/sitemap.xml
