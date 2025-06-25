@@ -192,6 +192,8 @@ exclude:
   - readme_preview/
   - vendor
   - _data/repositories.yml
+  - _pages/repositories.md
+  - _includes/repository/
   - assets/json/resume.json
 keep_files:
   - CNAME
