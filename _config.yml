@@ -192,6 +192,7 @@ exclude:
   - readme_preview/
   - vendor
   - _data/repositories.yml
+  - assets/json/resume.json
 keep_files:
   - CNAME
   - .nojekyll
