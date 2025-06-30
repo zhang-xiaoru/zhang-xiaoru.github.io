@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Xiaoru ZHang",
-    "label": "Scientist",
+    "label": "Ph.D. in Physics",
     "image": "",
     "email": "xiaoruzhang@utexas.edu",
     "phone": "(737) 420-4318",
@@ -24,31 +24,26 @@
   },
   "work": [
     {
-      "name": "University of Texas at Austin",
+      "name": "Center for Complex Quantum System",
       "position": "Graduate Research Assistance",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
+      "url":"https://sites.utexas.edu/aadg/",
+      "startDate": "2024",
+      "endDate": "Present",
       "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "highlights": ["Condensed matter"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Center for Complex Quantum System",
+      "position": "Graduate Research Assistance",
+      "startDate": "2022",
+      "endDate": "2024",
+      "highlights": ["Scan Microscopy", "Clean room fabrication"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
+      "institution": "University of Texas at Austin",
+      "location": "Austin, Texas",
       "url": "https://www.uzh.ch/",
       "area": "Software Development",
       "studyType": "PhD",
