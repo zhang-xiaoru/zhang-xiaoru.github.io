@@ -29,28 +29,44 @@
       "url":"https://sites.utexas.edu/aadg/",
       "startDate": "2024",
       "endDate": "Present",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Condensed matter"]
+      "summary": "Energy-efficient Computing with Ferroelectric and Machine Learning Accelerated Material Modeling",
+      "highlights": ["Condensed matter physics"]
     },
     {
       "name": "Center for Complex Quantum System",
       "position": "Graduate Research Assistance",
       "startDate": "2022",
       "endDate": "2024",
+      "summary": "Design, Fabrication and Characteristic of Acoustic Metamaterials",
       "highlights": ["Scan Microscopy", "Clean room fabrication"]
+    }
+    {
+      "name": "Xi'an Jiaotong University",
+      "position": "Undergraduate Research Assistance",
+      "startDate": "2021",
+      "endDate": "2022",
+      "summary": "",
+      "highlights": ["Spectral decomposition", "Optical Vortex"]
     }
   ],
   "education": [
     {
       "institution": "University of Texas at Austin",
       "location": "Austin, Texas",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "area": "Physics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2022",
+      "endDate": "2027",
+      "score": "3.94/4.00"
+    },
+    {
+      "institution": "University of Texas at Austin",
+      "location": "Austin, Texas",
+      "area": "Statistics",
+      "studyType": "MS",
+      "startDate": 2024,
+      "endDate": 2026,
+      "score": "4.00/4.00"
     }
   ],
   "awards": [
@@ -108,7 +124,7 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
+      "name": "Reservoir computing",
       "publisher": "Annalen der Physik",
       "releaseDate": "1905-06-30",
       "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
