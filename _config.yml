@@ -194,7 +194,8 @@ exclude:
   - _data/repositories.yml
   - _pages/repositories.md
   - _includes/repository/
-  - assets/json/resume.json
+  - _pages/profiles.md
+  #- assets/json/resume.json
 keep_files:
   - CNAME
   - .nojekyll
