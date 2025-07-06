@@ -9,7 +9,7 @@
     "summary": "Ph.D. candidate in computational/theoretical condensed matter physics.",
     "location": {
       "address": "2515 Speed Way",
-      "postalCode": "TX 78705",
+      "postalCode": "TX 78712",
       "city": "Austin",
       "countryCode": "US",
       "region": "Texas"
@@ -39,7 +39,7 @@
       "endDate": "2024",
       "summary": "Design, Fabrication and Characteristic of Acoustic Metamaterials",
       "highlights": ["Scan Microscopy", "Clean room fabrication"]
-    }
+    },
     {
       "name": "Xi'an Jiaotong University",
       "position": "Undergraduate Research Assistance",
@@ -67,6 +67,15 @@
       "startDate": 2024,
       "endDate": 2026,
       "score": "4.00/4.00"
+    },
+    {
+      "institution": "Xi'an Jiaotong University",
+      "location": "Xi'an, Shaanxi",
+      "area": "Physics",
+      "studyType": "BS",
+      "startDate": "2018",
+      "endDate": "2022",
+      "score": "3.79/4.00"
     }
   ],
   "awards": [

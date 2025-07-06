@@ -2,14 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Department of Physics, The University of Texas at Austin</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://physics.utexas.edu/'>Department of Physics, The University of Texas at Austin</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
     <p>2515 Speedway</p>
     <p>Austin, Texas 78712</p>
 
@@ -27,5 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a third year PhD student in Physics at the University of Texas at Austin 
+I am currently a PhD candidate working on computational/theorical condensed matter physics at Prof. Alexander Demkov's group. My current research foucsed on ferroreclrtic oxide and their applications in energy-efficient eletro-optics decvies. 
 
+I start my graduate studies with experimental research in nano-scale metamaterial, where I use scan prob microscopy 
