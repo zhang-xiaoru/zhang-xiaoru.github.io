@@ -1,10 +1,6 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
   
-  {% comment %}
-    original set up fro al-folio
-    {% assign education = data[1] | sort: 'startDate' | reverse %}
-  {% endcomment % }
-  {% assign education = data[1] | sort: 'endDate' | reverse %}
+  {% assign education = data[1] | sort: 'startDate' | reverse %}
   {% for content in education %}
     <li class="list-group-item">
       <div class="row">
