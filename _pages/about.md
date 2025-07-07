@@ -6,7 +6,7 @@ subtitle: <a href='https://physics.utexas.edu/'>Department of Physics, The Unive
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: zxr_personal.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>2515 Speedway</p>
