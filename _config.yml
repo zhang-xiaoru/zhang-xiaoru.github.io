@@ -195,6 +195,7 @@ exclude:
   - _pages/repositories.md
   - _includes/repository/
   - _pages/profiles.md
+  - _posts/examples/
   #- assets/json/resume.json
 keep_files:
   - CNAME
