@@ -69,6 +69,94 @@ ninja.data = [{
             window.location.href = "/blog/2025/chebyshev-nodes/";
           
         },
+      },{id: "post-latex-to-word-conversion",
+        
+          title: "LaTex To Word Conversion",
+        
+        description: "convert LaTex file into Word with formatting",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/latex-2-word/";
+          
+        },
+      },{id: "post-guide-to-tacc",
+        
+          title: "Guide to TACC",
+        
+        description: "a note for using Texas Advanced Computing Center (TACC)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/tacc-lonestar6/";
+          
+        },
+      },{id: "post-enable-markdown-callout-in-hugo",
+        
+          title: "Enable Markdown Callout in Hugo",
+        
+        description: "Add markdown callout in Hugo blog",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/callout/";
+          
+        },
+      },{id: "post-python-type-annotations",
+        
+          title: "Python Type Annotations",
+        
+        description: "making type hint for Python functions",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/type-anno/";
+          
+        },
+      },{id: "post-martingales",
+        
+          title: "Martingales",
+        
+        description: "a short intro to martingales",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/martingales/";
+          
+        },
+      },{id: "post-cross-validation-for-time-series-data",
+        
+          title: "Cross Validation For Time Series Data",
+        
+        description: "how to perform cross validation for time sequence data",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/timeseries-cv/";
+          
+        },
+      },{id: "post-make-shortcut-for-directory-in-zsh",
+        
+          title: "Make shortcut for directory in zsh",
+        
+        description: "way to make shortcut to working directories",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dir-shortcut/";
+          
+        },
+      },{id: "post-decision-tree",
+        
+          title: "Decision Tree",
+        
+        description: "Decision tree model in machine learning",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/decision-tree/";
+          
+        },
       },{id: "post-quant-companies",
         
           title: "Quant Companies",
@@ -78,6 +166,50 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/quant-jobs/";
+          
+        },
+      },{id: "post-simple-random-walk",
+        
+          title: "Simple Random Walk",
+        
+        description: "note in simple random walk",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/simple-random-walk/";
+          
+        },
+      },{id: "post-significance-test",
+        
+          title: "Significance test",
+        
+        description: "A short intro to statistical test",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/hypo-test/";
+          
+        },
+      },{id: "post-how-to-uninstall-pkg-in-macos",
+        
+          title: "How to uninstall pkg in MacOS",
+        
+        description: "clean unused pkgs in MacOS",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/uninstall-pkg/";
+          
+        },
+      },{id: "post-create-blog-with-hugo-and-papermod-themes",
+        
+          title: "Create blog with Hugo and PaperMod themes",
+        
+        description: "Making static blog web using Hugo and PaperMod themes",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/make-blog/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",

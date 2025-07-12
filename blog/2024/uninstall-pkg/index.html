@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"> <html><body> <h1 id="remove-pkg-manually">Remove pkg manually</h1> <ol> <li>Check the package ID using <code class="language-plaintext highlighter-rouge">$pkgutil --pkgs</code> <div class="language-bash highlighter-rouge"> <div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>pkgutil <span class="nt">--pkgs</span>
+...
+com.oll.pkg.CCRuntime
+com.AntiCC.RiD
+com.hciso.AntiCC
+...
+</code></pre></div> </div> </li> <li>Get the location of the pkg want to delete using <code class="language-plaintext highlighter-rouge">$pkgutil --pkg-info &lt;pkg id&gt;</code> <div class="language-bash highlighter-rouge"> <div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>pkgutil <span class="nt">--pkg-info</span> com.oll.pkg.CCRuntime
+package-id: com.oll.pkg.CCRuntime
+version: 2023.1
+volume: /
+location: 
+install-time: 1724439281
+</code></pre></div> </div> </li> <li>Delete <code class="language-plaintext highlighter-rouge">.bom</code> and all the files in the pkg location To delete the <code class="language-plaintext highlighter-rouge">.bom</code> files <div class="language-bash highlighter-rouge"> <div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>lsbom <span class="nt">-fls</span>  /private/var/db/receipts/com.oll.pkg.CCRuntime 
+</code></pre></div> </div> <p>the <code class="language-plaintext highlighter-rouge">.bom</code> files of all the pkg installed are located at <code class="language-plaintext highlighter-rouge">/private/var/db/receipts</code>. The install history are recorded at <code class="language-plaintext highlighter-rouge">/Library/Receipts/InstallHistory.plist</code>. Then delete all the files in the pkg location</p> <div class="language-bash highlighter-rouge"> <div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>lsbom <span class="nt">-fls</span>  /private/var/db/receipts/com.oll.pkg.CCRuntime | <span class="o">(</span><span class="nb">cd</span> /<span class="p">;</span> <span class="nb">sudo </span>xargs <span class="nb">rm</span><span class="o">)</span>
+<span class="nv">$ </span>lsbom <span class="nt">-fls</span>  /private/var/db/receipts/com.oll.pkg.CCRuntime | <span class="o">(</span><span class="nb">cd</span> /<span class="p">;</span> <span class="nb">sudo </span>xargs <span class="nb">rm</span> <span class="nt">-r</span><span class="o">)</span>
+</code></pre></div> </div> </li> <li>Remove the pkg information at the end <div class="language-bash highlighter-rouge"> <div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>pkgutil <span class="nt">--forget</span> com.oll.pkg.CCRuntime
+</code></pre></div> </div> <h1 id="use-uninstallpkg">Use UninstallPKG</h1> <p>UninstallPKG is an application that allows you to completely remove <code class="language-plaintext highlighter-rouge">.pkg</code> and all their installed contents. Install from homebrew</p> <div class="language-bash highlighter-rouge"> <div class="highlight"><pre class="highlight"><code>brew <span class="nb">install</span> <span class="nt">--cask</span> uninstallpkg
+</code></pre></div> </div> <p>or from their <a href="https://www.corecode.io/uninstallpkg/" rel="external nofollow noopener" target="_blank">website</a>.</p> </li> </ol> </body></html>
