@@ -196,7 +196,7 @@ exclude:
   - _includes/repository/
   - _pages/profiles.md
   - _posts/examples/
-  - _posts/examples/2023-07-12-post-bibliography.md
+  - /_bibliography/example.bib
   #- assets/json/resume.json
 keep_files:
   - CNAME
