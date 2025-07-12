@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quant Companies
-date: 2024-10-17 23:30:59-06:00 # create date
+date: 2024-10-17 23:30:59-0600 # create date
 description: A quant finance company list
 tags: quant
 categories: quant
