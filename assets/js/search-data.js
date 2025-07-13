@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-chebyshev-nodes",
+            },{id: "post-catalan-numbers",
+        
+          title: "Catalan Numbers",
+        
+        description: "counting for binary string with non-exceeding segments",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/catalan-num/";
+          
+        },
+      },{id: "post-chebyshev-nodes",
         
           title: "Chebyshev Nodes",
         
