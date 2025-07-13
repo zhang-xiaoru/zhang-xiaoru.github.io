@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Martingales
 date: 2024-12-17 13:20:00-0600
 description: a short intro to martingales

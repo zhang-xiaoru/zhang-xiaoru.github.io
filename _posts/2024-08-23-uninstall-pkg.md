@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: How to uninstall pkg in MacOS
 date: 2024-08-23 19:29:00-0600
 description: clean unused pkgs in MacOS

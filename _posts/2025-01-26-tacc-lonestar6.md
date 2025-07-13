@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Guide to TACC
 date: 2025-01-26 16:16:00-0600
 description: a note for using Texas Advanced Computing Center (TACC)

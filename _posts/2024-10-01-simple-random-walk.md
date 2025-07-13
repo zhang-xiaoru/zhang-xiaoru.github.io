@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Simple Random Walk
 date: 2024-10-01 21:24:00-0600
 description: note in simple random walk

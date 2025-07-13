@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Make shortcut for directory in zsh
 date: 2024-11-11 10:29:00-600
 description: way to make shortcut to working directories

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Cross Validation For Time Series Data
 date: 2024-11-24 15:04:00-0600
 description: how to perform cross validation for time sequence data
