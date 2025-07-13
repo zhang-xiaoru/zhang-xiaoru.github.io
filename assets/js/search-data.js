@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-catalan-numbers",
+            },{id: "post-negative-binomial-distribution",
+        
+          title: "Negative Binomial Distribution",
+        
+        description: "a brife note for negtivae binomial distribution",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/negtive-binom/";
+          
+        },
+      },{id: "post-catalan-numbers",
         
           title: "Catalan Numbers",
         
