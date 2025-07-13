@@ -69,17 +69,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/catalan-num/";
           
         },
-      },{id: "post-chebyshev-nodes",
-        
-          title: "Chebyshev Nodes",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/chebyshev-nodes/";
-          
-        },
       },{id: "post-latex-to-word-conversion",
         
           title: "LaTex To Word Conversion",
@@ -166,17 +155,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/decision-tree/";
-          
-        },
-      },{id: "post-quant-companies",
-        
-          title: "Quant Companies",
-        
-        description: "A quant finance company list",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/quant-jobs/";
           
         },
       },{id: "post-simple-random-walk",
