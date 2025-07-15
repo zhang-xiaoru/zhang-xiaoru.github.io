@@ -2,7 +2,7 @@
 layout: page
 title: Classifying Stellar Multiplicity
 #description: Classification of multiplicity for star formation based on numerical simulations
-img: assets/img/projects/stellarClass/stellar_cover.png
+img: assets/img/projects/stellarClass/stellar_cover.jpg
 importance: 1
 #category: 
 related_publications: false
