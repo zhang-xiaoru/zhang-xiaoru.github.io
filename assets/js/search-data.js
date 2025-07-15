@@ -214,9 +214,24 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-bayesian-method-on-modeling-commuting-transportation-choice",
+          title: 'Bayesian method on modeling commuting transportation choice',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bayesian/";
+            },},{id: "projects-inverse-design-of-nano-scale-acoustic-surface",
+          title: 'Inverse design of nano-scale acoustic surface',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/inverse/";
+            },},{id: "projects-regression-analysis-on-the-impact-of-financial-indicators-on-stock-market-performance-using-r",
+          title: 'Regression analysis on the impact of financial indicators on stock market performance using...',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/linearReg/";
+            },},{id: "projects-classifying-stellar-multiplicity",
+          title: 'Classifying Stellar Multiplicity',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ml/";
             },},{id: "research-project-1",
