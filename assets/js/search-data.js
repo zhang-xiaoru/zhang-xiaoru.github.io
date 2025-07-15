@@ -216,7 +216,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-bayesian-method-on-modeling-commuting-transportation-choice",
           title: 'Bayesian method on modeling commuting transportation choice',
-          description: "",
+          description: "[&quot;description 1&quot;, &quot;description 2&quot;]",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bayesian/";
             },},{id: "projects-inverse-design-of-nano-scale-acoustic-surface",
