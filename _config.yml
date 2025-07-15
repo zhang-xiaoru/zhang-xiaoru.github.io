@@ -152,6 +152,8 @@ collections:
     output: true
   projects:
     output: true
+  research:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -199,7 +201,10 @@ exclude:
   - _posts/examples/
   - _posts/draft/
   - _projects/examples/
-  - /_bibliography/example.bib
+  - _bibliography/example.bib
+  - _pages/teaching.md
+  - _pages/dropdown.md
+  - _pages/books.md
   #- assets/json/resume.json
 keep_files:
   - CNAME
@@ -273,8 +278,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Zhang]
+  first_name: [Xiaoru]
 
   style: apa
   locale: en
