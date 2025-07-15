@@ -2,7 +2,7 @@
 layout: page
 title: Bayesian method on modeling commuting transportation choice
 #description: with background image
-img: assets/projects/bayesian/bayesian_cover.jpg
+img: assets/img/projects/bayesian/bayesian_cover.jpg
 importance: 1
 #category: work
 related_publications: flase

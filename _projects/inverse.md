@@ -2,7 +2,7 @@
 layout: page
 title: Inverse design of nano-scale acoustic surface
 #description: with background image
-img: assets/projects/inverse/inverse_cover.jpg
+img: assets/img/projects/inverse/inverse_cover.jpg
 #category: work
 related_publications: false
 ---
