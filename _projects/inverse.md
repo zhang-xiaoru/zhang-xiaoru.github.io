@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Classifying Stellar Multiplicity
-#description: Classification of multiplicity for star formation based on numerical simulations
-img: assets/projects/stellarClass/stellar_cover.png
-importance: 1
-#category: 
+title: Inverse design of nano-scale acoustic surface
+#description: with background image
+img: assets/projects/inverse/inverse_cover.jpg
+#category: work
 related_publications: false
 ---
 
