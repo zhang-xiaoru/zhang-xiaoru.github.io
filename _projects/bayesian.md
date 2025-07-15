@@ -1,13 +1,22 @@
 ---
 layout: page
 title: Bayesian method on modeling commuting transportation choice
-#description: with background image
+description:
+  - description 1
+  - description 2 
 img: assets/img/projects/bayesian/bayesian_cover.jpg
 importance: 1
 #category: work
-related_publications: flase
+related_publications: false
 ---
 
+# Introduction
+
+# Dataset
+
+# Bayesian model set up
+
+# 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
