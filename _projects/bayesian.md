@@ -24,13 +24,16 @@ $$
 Here, the $i$ stands for the index of each data (individual) and $j$ represent different income group. The success probability $p_{ij}$ is linked with regressive variables through a logit link function as
 
 $$
+\begin{gather*}
 \mathrm{logit}(p_{ij})=\mu_{ij}\\
 \mu_{ij}\sim\mathrm{N}(\mathbf{A}^T_{i}\boldsymbol{\alpha}+\mathbf{D}^T_{ij}\boldsymbol{\beta}_{j},\sigma^2).
+\end{gather*}
 $$
 
 Noticed that a normal distribution is used to introduce the random ness in the general linear model (the larger the linear regression give only means the sucess probability will have higher chance to be larger). $\mathbf{A}^T_{i}$ is the matrix of covariates associated with the *alternatives*, whereas $\mathbf{D}^T_{ij}$ concerns the matrix of covariates associated with the *individual's characteristics*, grouped by their respective income $j$. Notice that while the parameter $\alpha$ is fixed, whereas $\beta_{j}$ is allowed to vary based capturing the random effect of the income levels. This set up should allow us to investigate if the decision-maker's parameters for the utility of commuting by car is affected differently according to their income. The prior distribution is assume to be as follow
 
 $$
+\begin{gather*}
 \alpha_{l}\sim\text{N}(\mu_{\alpha,l},\sigma^2_{\alpha,l}), \quad l=1,...,L\\
 \beta_{k,j}\sim\text{N}(\boldsymbol{\mu}_{\beta}, \boldsymbol{\sigma^2}_{\beta}),\quad k=1,...,K\\
 \mu_{\alpha,l}\sim\text{N}(\mu_{0}, \sigma^2_{0})\\
@@ -39,6 +42,7 @@ $$
 \mu_{\beta_{0}}\sim\text{N}(\mu_{0}, \sigma^2_{0})\\
 \sigma^2_{\beta,j}\sim\text{IG}(q_{\beta},r_{\beta})\\
 \sigma^2\sim\text{IG}(q,r),\\
+\end{gather*}
 $$
 
 To find posterior distribution, we set up Markov Chain Monte Carlo (MCMC) sampling using JAGS package. The MCMC is set with 50000 iterations, and burn-in period of 10000 iterations. The trace plots below demonstrate the convergence of the chain.
