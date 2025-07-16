@@ -27,10 +27,10 @@ The response varaible we wish to predict with the model is
 
 We wish to investige the grouping effect of household income on family level prediction variables such as number of car own. The income group is set up with the following descriptive table. Low income $\leq$ \$50000; Medium income \$50001-\$1000000; High income $>$ $100000.
 
-|Mode | Low | Medium | High |
-|:--- |:---:|:------:|-----:|
-|DA   | 103           |(85.12\%) | 149 (87.65\%) | 217 (86.11\%) |
-|TR   | 18 (14.88\%)  | 21 (12.35\%)  | 35 (13.89\%) |
+|Mode |  Low          | Medium        |         High |
+|:--- | :-----------: |:-------------:|-------------:|
+|DA   | 103 (85.12 %) | 149 (87.65 %) | 217 (86.11 %)|
+|TR   | 18 (14.88\%)  | 21 (12.35 %)  | 35 (13.89 %) |
 
 <div class="caption">
     Descriptive table for income level grouping.
@@ -101,7 +101,7 @@ Using the MCMC sampling, we were able to obtained the posterior distribution for
 </div>
 The posterior distribution can also be visually inspect through violin plot.
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/bayesian/violin_scaled.png" title="trace plot alpha" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -126,3 +126,21 @@ First we visualized the posterior prediction by ploting the prediction curves of
         {% include figure.liquid loading="eager" path="assets/img/projects/bayesian/post_pred3_scaled.png" title="trace plot alpha" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+Due to the high-dimensional nature of the predictions, it is difficult to visualize change in the posterior predictive variable across the full range of predictor values. Therefore, the posterior predictive mean and CI were calculated along a specific line in the predictor space. 
+
+The Receiver Operating Characteristic (ROC) plot was used to evaluate the performance of the proposed Bayesian model. The ROC curve displays the True Positive Rate versus the False Positive Rate across various classification thresholds, where each threshold determines the class based on the predicted probability.
+
+In a ROC plot, a perfect model is represented by a curve hugging the top-left corner, as it would achieve a True Positive Rate of 1 and a False Positive Rate of 0. A random model (i.e., guessing the outcome) would follow the diagonal line. Therefore, the closer the curve is to the top-left corner, the better the model's performance. The ROC plot for the proposed model shows a curve close to the top-left corner, indicating good predictive ability.
+
+<div class="row">
+    <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/bayesian/roc_scaled.png" title="trace plot alpha" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Receiver Operating Characteristic for proposed Bayesian mode
+</div>
+ 
+ More specifically, the model prediction reach accruacy of 93% accuracy when the threshold is 0.5 (i.e. $>$ 0.5 predict label as 1; $\leq$ 0.5 predict as 0).
+ 
