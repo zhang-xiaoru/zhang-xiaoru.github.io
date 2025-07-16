@@ -8,6 +8,9 @@ img: assets/img/projects/bayesian/bayesian_cover.jpg
 importance: 1
 #category: work
 related_publications: false
+toc:
+  sidebar: left
+pretty_table: true
 ---
 
 # Introduction
@@ -48,7 +51,7 @@ $$
 To find posterior distribution, we set up Markov Chain Monte Carlo (MCMC) sampling using JAGS package. The MCMC is set with 50000 iterations, and burn-in period of 10000 iterations. The trace plots below demonstrate the convergence of the chain.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/bayesian/alpha-tp.png" title="trace plot alpha" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/bayesian/alpha_tp.png" title="trace plot alpha" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/bayesian/beta_tp.png" title="trace plot beta" class="img-fluid rounded z-depth-1" %}
@@ -59,6 +62,32 @@ To find posterior distribution, we set up Markov Chain Monte Carlo (MCMC) sampli
 </div>
 
 # Result and prediction
+## Posterior Distribution
+Using the MCMC sampling, we were able to obtained the posterior distribution for all the regressive parameters and the corresponding marginal distribution. The mean, standard deviation and 95% credible interval for each parameter is shown in the table below.
+ 
+| Description  |    Parameter  | Estimate | Std.Error | 2.5% - 97.5% CI |
+| :----------- | :-----------: | :------: |:---------:| ---------------:|
+|ASC           | $\alpha_0$    | 3.347    | 0.878     | [1.733, 5.184]  |
+|TC\_CAR       | $\alpha_1$    | -1.828   | 0.300     | [-2.508, -1.324]|
+|TC\_TR        | $\alpha_2$    | 1.472    | 0.588     | [0.375, 2.604]  |
+|TT\_TR        | $\alpha_3$    | 2.126    | 0.599     | [1.117, 3.432]  |
+|OVTIRDI       | $\alpha_4$    | 2.650    | 0.836     | [1.159, 4.479]  |
+|NUMVEH\_LOW   | $\beta_{1,1}$ | 0.691    | 0.349     | [0.032, 1.392]  |
+|NUMVEH\_MED   | $\beta_{2,1}$ | 0.791    | 0.312     | [0.218, 1.432]  |
+|NUMVEH\_HIGH  | $\beta_{3,1}$ | 1.078    | 0.456     | [0.359, 2.153]  |
+<div class="caption">
+    Table for descriptive value of posterior distribution
+</div>
+The posterior distribution can also be visually inspect through violin plot.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/bayesian/alpha_tp.png" title="trace plot alpha" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Violin plot for all posterior distribution
+</div>
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
