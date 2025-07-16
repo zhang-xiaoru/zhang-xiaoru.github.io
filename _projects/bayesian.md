@@ -8,9 +8,6 @@ img: assets/img/projects/bayesian/bayesian_cover.jpg
 importance: 1
 #category: work
 related_publications: false
-toc:
-  sidebar: left
-pretty_table: true
 ---
 
 # Introduction
