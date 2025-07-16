@@ -72,13 +72,14 @@ Using the MCMC sampling, we were able to obtained the posterior distribution for
 |NUMVEH\_LOW   | $\beta_{1,1}$ | 0.691    | 0.349     | [0.032, 1.392]  |
 |NUMVEH\_MED   | $\beta_{2,1}$ | 0.791    | 0.312     | [0.218, 1.432]  |
 |NUMVEH\_HIGH  | $\beta_{3,1}$ | 1.078    | 0.456     | [0.359, 2.153]  |
+
 <div class="caption">
     Table for descriptive value of posterior distribution
 </div>
 The posterior distribution can also be visually inspect through violin plot.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/bayesian/alpha_tp.png" title="trace plot alpha" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/bayesian/violin_scaled.png" title="trace plot alpha" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
