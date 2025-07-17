@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -216,7 +216,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-predicting-commuting-transportation-choice",
           title: 'Predicting Commuting Transportation Choice',
-          description: "[&quot;Logistic regression with hierachical Bayesian model. Implemented in R with JAGS packges. COurse project for SDS384-7 Bayesian Statistical Methods.&quot;]",
+          description: "[&quot;Logistic regression with hierarchical Bayesian model. Implemented in R with JAGS package. COurse project for SDS384-7 Bayesian Statistical Methods.&quot;]",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bayesian/";
             },},{id: "projects-inverse-design-of-nano-scale-acoustic-surface",
@@ -224,8 +224,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/inverse/";
-            },},{id: "projects-regression-analysis-on-the-impact-of-financial-indicators-on-stock-market-performance-using-r",
-          title: 'Regression analysis on the impact of financial indicators on stock market performance using...',
+            },},{id: "projects-impact-of-financial-indicators-on-stock-market-performance",
+          title: 'Impact of Financial Indicators on Stock Market Performance',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/linearReg/";
