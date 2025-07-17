@@ -50,7 +50,7 @@ $$
 $$
 </div>
 
-NOticed that this is the expansion coefficient of $(1-x)^{-r}$, which is
+Noticed that this is the expansion coefficient of $(1-x)^{-r}$, which is
 
 <div style="overflow-x: auto; max-width: 100%;">
 $$

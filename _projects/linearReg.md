@@ -215,7 +215,7 @@ Since our data is originally strongly effected by the outliers, we therefore use
 
 <div class="row">
     <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/sem_seq.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/sem_res.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -237,13 +237,11 @@ At last, we examine visually the normality or error term using a quantile-quanti
 
 The Q-Q plot suggested that the error distribution is not normal, and skewed right. To obtained a more quantitative inference about the normality of the residue, we then perform the Anderson-Darling test to test the normality of the error term formally. The null and alternative hypotheses are
 
-<div style="overflow-x: auto; max-width: 100%;">
 $$
     H_0:\text{Error distribution is normal}, \quad H_a:\text{Error distribution is not normal} 
 $$
-</div>
 
-and the result of the test is given in Table.\ref{tab2-8}.
+and the result of the test is given in the table below.
 
 |Test statistics |      p-value         |
 |:--------------:|:--------------------:|
