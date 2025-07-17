@@ -1,18 +1,19 @@
 ---
 layout: page
-title: Bayesian method on modeling commuting transportation choice
+title: Predicting Commuting Transportation Choice
 description:
-  - description 1
-  - description 2 
+  - Logistic regression with hierachical Bayesian model. Implemented in R with JAGS packges. COurse project for SDS384-7 Bayesian Statistical Methods.
 img: assets/img/projects/bayesian/bayesian_cover.jpg
 importance: 1
 #category: work
 related_publications: false
 pretty_table: true
+toc:
+  beginning: true
 ---
 
 # Introduction
-
+Individuals choice of transportation methods, such as car, transit, rail, share-ridding etc, is related to various characteristic (cost of different transportation methods, distance, etc). The interest lies in the ability to predict individual's choice of transportation methods based on their characteristic. This prediction task is equivalent as a binary or multicast classification problem. In this project, we create a Bayesian multi linear regression model to predict the individual choice of transportation methods. We create a hierarchical structure to allow randomness in the parameters with the idea to accommodate mechanisms in the underlying process.
 # Dataset
 The dataset used in this project is a random sample of 543 individual workers in the Boston Metropolitan area. The prediction variable we use are
 * TC_CAR: Travel cost associated with car
@@ -25,12 +26,12 @@ The dataset used in this project is a random sample of 543 individual workers in
 The response varaible we wish to predict with the model is 
 * Commuting choice: 1 for driving; 0 for public transit
 
-We wish to investige the grouping effect of household income on family level prediction variables such as number of car own. The income group is set up with the following descriptive table. Low income $\leq$ \$50000; Medium income \$50001-\$1000000; High income $>$ $100000.
+We wish to investige the grouping effect of household income on family level prediction variables such as number of car own. The income group is set up with the following descriptive table. Low income $\leq$ \\$50000; Medium income \\$50001-\\$1000000; High income $>$ \\$100000.
 
 |Mode |  Low          | Medium        |         High |
 |:--- | :-----------: |:-------------:|-------------:|
 |DA   | 103 (85.12 %) | 149 (87.65 %) | 217 (86.11 %)|
-|TR   | 18 (14.88\%)  | 21 (12.35 %)  | 35 (13.89 %) |
+|TR   | 18 (14.88 %)  | 21 (12.35 %)  | 35 (13.89 %) |
 
 <div class="caption">
     Descriptive table for income level grouping.
@@ -143,4 +144,3 @@ In a ROC plot, a perfect model is represented by a curve hugging the top-left co
 </div>
  
  More specifically, the model prediction reach accruacy of 93% accuracy when the threshold is 0.5 (i.e. $>$ 0.5 predict label as 1; $\leq$ 0.5 predict as 0).
- 
