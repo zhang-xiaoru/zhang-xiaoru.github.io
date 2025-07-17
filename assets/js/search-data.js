@@ -214,8 +214,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-predicting-commuting-transportation-choice",
-          title: 'Predicting Commuting Transportation Choice',
+          section: "News",},{id: "projects-predict-commuting-transportation-choice",
+          title: 'Predict Commuting Transportation Choice',
           description: "[&quot;Logistic regression with hierarchical Bayesian model. Implemented in R with JAGS package. COurse project for SDS384-7 Bayesian Statistical Methods.&quot;]",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bayesian/";
