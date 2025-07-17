@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Predicting Commuting Transportation Choice
+title: Predict Commuting Transportation Choice
 description:
   - Logistic regression with hierarchical Bayesian model. Implemented in R with JAGS package. COurse project for SDS384-7 Bayesian Statistical Methods.
 img: assets/img/projects/bayesian/bayesian_cover.jpg
@@ -12,9 +12,9 @@ toc:
   beginning: true
 ---
 
-# Introduction
+## Introduction
 Individuals choice of transportation methods, such as car, transit, rail, share-ridding etc, is related to various characteristic (cost of different transportation methods, distance, etc). The interest lies in the ability to predict individual's choice of transportation methods based on their characteristic. This prediction task is equivalent as a binary or multicast classification problem. In this project, we create a Bayesian multi linear regression model to predict the individual choice of transportation methods. We create a hierarchical structure to allow randomness in the parameters with the idea to accommodate mechanisms in the underlying process.
-# Dataset
+## Dataset
 The dataset used in this project is a random sample of 543 individual workers in the Boston Metropolitan area. The prediction variable we use are
 * TC_CAR: Travel cost associated with car
 * TC_TR: Travel cost associated with public transit
@@ -38,7 +38,7 @@ We wish to ingestive the grouping effect of household income on family level pre
 </div>
 
 In the project, the number of vehicle are grouped with different income level. The income level is set from the annual income with Low income.
-# Bayesian Model Set Up
+## Bayesian Model Set Up
 The proposed Bayesian Model start with the data distribution. I use a simple approach where the decision is given by Bernoulli distribution with probability of success $p_{ij}$
 
 $$
@@ -82,8 +82,8 @@ To find posterior distribution, we set up Markov Chain Monte Carlo (MCMC) sampli
     Trace plot for regression parameters, showing the convergence of the chain
 </div>
 
-# Result and prediction
-## Posterior Distribution
+## Result and prediction
+### Posterior Distribution
 Using the MCMC sampling, we were able to obtained the posterior distribution for all the regressive parameters and the corresponding marginal distribution. The mean, standard deviation and 95% credible interval for each parameter is shown in the table below.
  
 | Description  |    Parameter  | Estimate | Std.Error | 2.5% - 97.5% CI |
@@ -110,7 +110,7 @@ The posterior distribution can also be visually inspect through violin plot.
     Violin plot for all posterior distribution
 </div>
 
-## Posterior prediction
+### Posterior prediction
 
 Based on the MCMC, it is able to give posterior prediction result.
 
@@ -147,5 +147,5 @@ In a ROC plot, a perfect model is represented by a curve hugging the top-left co
  
  More specifically, the model prediction reach accruacy of 93% accuracy when the threshold is 0.5 (i.e. $>$ 0.5 predict label as 1; $\leq$ 0.5 predict as 0).
 
-# Acknowledgement
+## Acknowledgement
 We thank Danilo Inoue from Maseeh Department of Civil, Architectural and Environmental Engineering, The University of Texas at Austin on collaborating this project.  

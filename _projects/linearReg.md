@@ -10,11 +10,11 @@ pretty_table: true
 toc:
   beginning: true
 ---
-# Introduction
+## Introduction
 Stock price variance is an important indicator to evaluate a company’s performance,
 and has been widely used for participants from institutional investors and individual traders to construct portfolios. The performance of a company is usually related to various financial indicators, and finding financial indicators as good predictors of stock price movement is of great interest. Due to the complex and volatile nature of the financial market, a statistical method is often preferred. The purpose of this study is to analyses the relationship between different financial indicators and the stock price variance and quantify the result with statistical methods. Every project has a beautiful feature showcase page.
 
-# Dataset Description
+## Dataset Description
 In this project, we investigated the public traded companies in the U.S. stock market in 2018. Due to the scope of the project, only a partial of the companies are included. We selected 6 different financial indicators as predictor varaibles
 * Revenue growth [%]: A numerical varaible describing the increase in a compan
 
@@ -38,7 +38,7 @@ In this project, we investigated the public traded companies in the U.S. stock m
 The response varaible we wish to predict is
 * 2019 Price Variance [\%]: A numerical variable representing the percentage change of stock market price during 2018-2019 with respect to the price in 2018.
 
-## Descriptive Analysis
+### Descriptive Analysis
 We start the descriptive analysis p
 
 
