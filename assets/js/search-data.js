@@ -214,9 +214,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-bayesian-method-on-modeling-commuting-transportation-choice",
-          title: 'Bayesian method on modeling commuting transportation choice',
-          description: "[&quot;description 1&quot;, &quot;description 2&quot;]",
+          section: "News",},{id: "projects-predicting-commuting-transportation-choice",
+          title: 'Predicting Commuting Transportation Choice',
+          description: "[&quot;Logistic regression with hierachical Bayesian model. Implemented in R with JAGS packges. COurse project for SDS384-7 Bayesian Statistical Methods.&quot;]",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bayesian/";
             },},{id: "projects-inverse-design-of-nano-scale-acoustic-surface",
@@ -233,7 +233,7 @@ ninja.data = [{
           title: 'Classifying Stellar Multiplicity',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/ml/";
+              window.location.href = "/projects/stellarClass/";
             },},{id: "research-project-1",
           title: 'project 1',
           description: "with background image",
