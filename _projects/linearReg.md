@@ -18,11 +18,11 @@ and has been widely used for participants from institutional investors and indiv
 In this project, we investigated the public traded companies in the U.S. stock market in 2018. Due to the scope of the project, only a partial of the companies are included. We selected 6 different financial indicators as predictor varaibles
 * Revenue growth [%]: A numerical varaible describing the increase in a compan
 
-* Revenue growth [\%]: A numerical variable describing the increase in a company's income generated.
-* Gross profit [\$]: A numerical variable describing the amount a company makes after deducing the direct cost associated with producing its goods from revenue. 
-* R\&D expense [\$]: A numerical variable describing the costs a company incurs in its research and development activities. 
-* SG\&A expense [\$]: A numerical variable describing the cost a company incurs in its selling, general, and administrative expenses. 
-* Total asset [\$]: A numerical variable describing the total value of everything the company owns that can provide future economic benefits. 
+* Revenue growth [%]: A numerical variable describing the increase in a company's income generated.
+* Gross profit [\\$]: A numerical variable describing the amount a company makes after deducing the direct cost associated with producing its goods from revenue. 
+* R&D expense [\\$]: A numerical variable describing the costs a company incurs in its research and development activities. 
+* SG&A expense [\\$]: A numerical variable describing the cost a company incurs in its selling, general, and administrative expenses. 
+* Total asset [\\$]: A numerical variable describing the total value of everything the company owns that can provide future economic benefits. 
 * Sectors: A categorical variable stating which sector the company at the stock market. 
 
     |Sectors|Tech | HC | IND | BaM |  CC | CSP | Ene |  CD |  FS | Total|
@@ -36,14 +36,14 @@ In this project, we investigated the public traded companies in the U.S. stock m
     |          Count          |     30    |    386    |   416  |
 
 The response variable we wish to predict is
-* 2019 Price Variance [\%]: A numerical variable representing the percentage change of stock market price during 2018-2019 with respect to the price in 2018.
+* 2019 Price Variance [%]: A numerical variable representing the percentage change of stock market price during 2018-2019 with respect to the price in 2018.
 
 ### Descriptive Analysis
 We start the descriptive analysis examine the distribution of all the numerical variables. The following figures shows the histogram of all the numerical variable used. **2019 Price Var is the response variable** in used while all the rest are the numerical predictors.
 
 <div class="row">
     <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/hist_numerical.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/hist_numerical.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -60,6 +60,7 @@ From the histogram we observed that the numerical data we have are all asymmetri
 |R&D expense [\\$]  | 416 | 1.07e5 | 1.45e8 | 70e7 | 3.07e7|
 |SG&A expense [\\$] | 416 | 1.30e6 | 1.86e8 | 98e7 | 4.60e7|
 |Total assets [\\$] | 416 | 3.85e6 | 9.98e8 | 44e8 | 2.43e8|
+
 <div class="caption">
     Descriptive statistics for numerical variables
 </div>
@@ -98,7 +99,7 @@ The following figures shows the scatter plot hows the scatter plot between the r
 
 <div class="row">
     <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/scatter_categorical.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/scatter_categorical.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -109,7 +110,7 @@ The scatter between the response variable and all numerical predictors shows a p
 
 <div class="row">
     <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/scatter_numerical.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/scatter_numerical.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -120,7 +121,7 @@ The following demonstrate the correlation matrix of all numerical variables. Not
 
 <div class="row">
     <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/corr_numerical.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/corr_numerical.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -192,6 +193,7 @@ and student t test is used as test statistics. The test result is shown in the f
 |Test statistics | p-value |
 |:--------------:|:-------:|
 |     0.90       |   0.37  |
+
 <div class="caption">
     Result for Brown-Forsythe test
 </div>
@@ -246,6 +248,7 @@ and the result of the test is given in Table.\ref{tab2-8}.
 |Test statistics |      p-value         |
 |:--------------:|:--------------------:|
 |     8.80       | $p<2.2\times10^{-16}$|
+
 <div class="caption">
     Result for Anderson-Darling test
 </div>

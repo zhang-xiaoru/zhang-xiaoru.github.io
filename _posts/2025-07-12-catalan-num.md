@@ -16,6 +16,7 @@ related_posts: false
 # Catalan Numbers
 
 Catalan numbers occurs in various counting problems. The $n$-th Catalan number  is expressed as
+
 $$
 C_n=\frac{1}{n+1}\binom{2n}{n}
 $$
@@ -33,9 +34,10 @@ Catalan number counts the number of Dyck words with length $2n$.
 
 If we replace the X as 1 and Y as -1 in the Dyck word, it is equivalent to a random walks that the path reaches 0 at the end and **does not pass the origin**. The number of such paths can be found using reflection principles. 
 
-Suppose the number of $+1$ and $-1$steps  in the walks are both $n$. We consider the complementray case instead, i.e., the number of ways that the path pass the origin at some point. More specifically, if $(s, i)$ denote that the walk is at position $s$ at $i$-th steps, we are looking for a path satisfying $(0, 0)$ and $(2n, 0)$, and $\exist 0\leq j\leq 2n$ s.t. $b<0$ for $(b, j)$. For such a path, we can always find a specific step $k$ s.t. the walk reach $(-1, k)$.
+Suppose the number of $+1$ and $-1$steps  in the walks are both $n$. We consider the complementray case instead, i.e., the number of ways that the path pass the origin at some point. More specifically, if $(s, i)$ denote that the walk is at position $s$ at $i$-th steps, we are looking for a path satisfying $(0, 0)$ and $(2n, 0)$, and $\\exist 0\leq j\leq 2n$ s.t. $b<0$ for $(b, j)$. For such a path, we can always find a specific step $k$ s.t. the walk reach $(-1, k)$.
 
-The reflection principles essintally states that if we flip the path between $0$ and $k$ at the point $k$ respect to $-1$ axis, we get then get a new path that start at $(0, -2)$ and reach $(2n, 0)$.  We can do this for every path we consider and get a unique path. Therefor, the question becomes finding number of paths that start $(0, -2)$ and reach $(2n, 0)$. Such path should contains $n-1$ steps of $-1$ and $n+1$ steps of $+1$. The number of permutations to form paths is thus $\frac{(2n)!}{(n-1)!(n+1)!}$. Thus the number of path from $(0, 0)$ to $(2n, 0)$ without passing the origin is 
+The reflection principles essintally states that if we flip the path between $0$ and $k$ at the point $k$ respect to $-1$ axis, we get then get a new path that start at $(0, -2)$ and reach $(2n, 0)$.  We can do this for every path we consider and get a unique path. Therefor, the question becomes finding number of paths that start $(0, -2)$ and reach $(2n, 0)$. Such path should contains $n-1$ steps of $-1$ and $n+1$ steps of $+1$. The number of permutations to form paths is thus $\frac{(2n)!}{(n-1)!(n+1)!}$. Thus the number of path from $(0, 0)$ to $(2n, 0)$ without passing the origin is
+ 
 $$
 \frac{(2n)!}{n!n!}-\frac{(2n)!}{(n-1)!(n+1)!}=\binom{2n}{n}-\frac{n}{n+1}\binom{2n}{n}=\frac{1}{n+1}\binom{2n}{n}=C_n
 $$
