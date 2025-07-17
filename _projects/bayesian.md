@@ -2,7 +2,7 @@
 layout: page
 title: Predicting Commuting Transportation Choice
 description:
-  - Logistic regression with hierachical Bayesian model. Implemented in R with JAGS packges. COurse project for SDS384-7 Bayesian Statistical Methods.
+  - Logistic regression with hierarchical Bayesian model. Implemented in R with JAGS package. COurse project for SDS384-7 Bayesian Statistical Methods.
 img: assets/img/projects/bayesian/bayesian_cover.jpg
 importance: 1
 #category: work
@@ -19,14 +19,14 @@ The dataset used in this project is a random sample of 543 individual workers in
 * TC_CAR: Travel cost associated with car
 * TC_TR: Travel cost associated with public transit
 * TT_TR: Total travel time in car
-* OVTTRDI: Overvechical transportation time in public transit per distance
-* NUMVEH: Number of vechos within household
+* OVTTRDI: Over vehicle transportation time in public transit per distance
+* NUMVEH: Number of vehicle within household
 * INCOME: Annual household income
 
-The response varaible we wish to predict with the model is 
+The response variable we wish to predict with the model is 
 * Commuting choice: 1 for driving; 0 for public transit
 
-We wish to investige the grouping effect of household income on family level prediction variables such as number of car own. The income group is set up with the following descriptive table. Low income $\leq$ \\$50000; Medium income \\$50001-\\$1000000; High income $>$ \\$100000.
+We wish to ingestive the grouping effect of household income on family level prediction variables such as number of car own. The income group is set up with the following descriptive table. Low income $\leq$ \\$50000; Medium income \\$50001-\\$1000000; High income $>$ \\$100000.
 
 |Mode |  Low          | Medium        |         High |
 |:--- | :-----------: |:-------------:|-------------:|
@@ -37,12 +37,12 @@ We wish to investige the grouping effect of household income on family level pre
     Descriptive table for income level grouping.
 </div>
 
-In the project, the number of bechos are grouped with different income level. The income level is setted from the annual income with Low incom
+In the project, the number of vehicle are grouped with different income level. The income level is set from the annual income with Low income.
 # Bayesian Model Set Up
-The porposed Bayesian Model start with the data dsitribution. I use a simple approch where the decsistion is given by Bernoulli distribution with probability of sucess $p_{ij}$
+The proposed Bayesian Model start with the data distribution. I use a simple approach where the decision is given by Bernoulli distribution with probability of success $p_{ij}$
 
 $$
-y_{ij}\sim Bern(p_{ij}), \quad i=1,\cdots,N,\quad j=1, 2, 3.
+y_{ij}\sim\mathrm{Bern}(p_{ij}), \quad i=1,\cdots,N,\quad j=1, 2, 3.
 $$
 
 Here, the $i$ stands for the index of each data (individual) and $j$ represent different income group. The success probability $p_{ij}$ is linked with regressive variables through a logit link function as
@@ -114,7 +114,7 @@ The posterior distribution can also be visually inspect through violin plot.
 
 Based on the MCMC, it is able to give posterior prediction result.
 
-First we visualized the posterior prediction by ploting the prediction curves of the Bernoulli coefficient $p_i$ for three different income groups along with their corresponding 95\% CI. Notice that the posterior predictive mean probability of an individual choosing CAR mode aligns with the observed data distribution.
+First we visualized the posterior prediction by plotting the prediction curves of the Bernoulli coefficient $p_i$ for three different income groups along with their corresponding 95\% CI. Notice that the posterior predictive mean probability of an individual choosing CAR mode aligns with the observed data distribution.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -127,7 +127,9 @@ First we visualized the posterior prediction by ploting the prediction curves of
         {% include figure.liquid loading="eager" path="assets/img/projects/bayesian/post_pred3_scaled.png" title="trace plot alpha" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
+<div class="caption">
+    Posterior predictive mean and 95% CI of success probability for individuals with low, medium and high income.
+</div>
 Due to the high-dimensional nature of the predictions, it is difficult to visualize change in the posterior predictive variable across the full range of predictor values. Therefore, the posterior predictive mean and CI were calculated along a specific line in the predictor space. 
 
 The Receiver Operating Characteristic (ROC) plot was used to evaluate the performance of the proposed Bayesian model. The ROC curve displays the True Positive Rate versus the False Positive Rate across various classification thresholds, where each threshold determines the class based on the predicted probability.
@@ -144,3 +146,6 @@ In a ROC plot, a perfect model is represented by a curve hugging the top-left co
 </div>
  
  More specifically, the model prediction reach accruacy of 93% accuracy when the threshold is 0.5 (i.e. $>$ 0.5 predict label as 1; $\leq$ 0.5 predict as 0).
+
+# Acknowledgement
+We thank Danilo Inoue from Maseeh Department of Civil, Architectural and Environmental Engineering, The University of Texas at Austin on collaborating this project.  

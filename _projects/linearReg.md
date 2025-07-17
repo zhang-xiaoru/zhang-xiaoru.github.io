@@ -1,14 +1,47 @@
 ---
 layout: page
-title: Regression analysis on the impact of financial indicators on stock market performance using R
+title: Impact of Financial Indicators on Stock Market Performance
 # description: Course final project for 
 img: assets/img/12.jpg
 importance: 1
-category: work
-related_publications: true
+#category: work
+related_publications: false
+pretty_table: true
+toc:
+  beginning: true
 ---
+# Introduction
+Stock price variance is an important indicator to evaluate a company’s performance,
+and has been widely used for participants from institutional investors and individual traders to construct portfolios. The performance of a company is usually related to various financial indicators, and finding financial indicators as good predictors of stock price movement is of great interest. Due to the complex and volatile nature of the financial market, a statistical method is often preferred. The purpose of this study is to analyses the relationship between different financial indicators and the stock price variance and quantify the result with statistical methods. Every project has a beautiful feature showcase page.
 
-Every project has a beautiful feature showcase page.
+# Dataset Description
+In this project, we investigated the public traded companies in the U.S. stock market in 2018. Due to the scope of the project, only a partial of the companies are included. We selected 6 different financial indicators as predictor varaibles
+* Revenue growth [%]: A numerical varaible describing the increase in a compan
+
+* Revenue growth [\%]: A numerical variable describing the increase in a company's income generated.
+* Gross profit [\$]: A numerical variable describing the amount a company makes after deducing the direct cost associated with producing its goods from revenue. 
+* R\&D expense [\$]: A numerical variable describing the costs a company incurs in its research and development activities. 
+* SG\&A expense [\$]: A numerical variable describing the cost a company incurs in its selling, general, and administrative expenses. 
+* Total asset [\$]: A numerical variable describing the total value of everything the company owns that can provide future economic benefits. 
+* Sectors: A categorical variable stating which sector the company at the stock market. 
+
+    |Sectors|Tech | HC | IND | BaM |  CC | CSP | Ene |  CD |  FS | Total|
+    |:-     | :-: | :-:| :-: | :-: | :-: | :-: | :-: | :-: | :-: |  -:  |
+    | Count | 177 | 138|  37 | 24  | 20  |  7  |  6  |  4  |  3  |  416 |
+
+* 5Y dividend per share: A categorical varaibel stating whether the company has increased 5Y dividend per share.
+
+    |5 year dividend per share|  Increase | Decreased |  Total |
+    | :---------------------: | :-------: | :-------: | :----: |
+    |          Count          |     30    |    386    |   416  |
+
+The response varaible we wish to predict is
+* 2019 Price Variance [\%]: A numerical variable representing the percentage change of stock market price during 2018-2019 with respect to the price in 2018.
+
+## Descriptive Analysis
+We start the descriptive analysis p
+
+
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
