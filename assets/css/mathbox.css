@@ -1,8 +1,9 @@
-.MathJax_Display > .mjx-chtml{
-  overflow-x: auto !important;
-  overflow-y: hidden;
+/* Scrollable MathJax display equations */
+mjx-container[jax="CHTML"][display="true"] {
   display: block;
+  overflow-x: auto;
+  overflow-y: hidden;
   max-width: 100%;
-  -webkit-overflow-scrolling: touch;
   padding-bottom: 0.5rem;
+  -webkit-overflow-scrolling: touch;
 }
