@@ -13,12 +13,14 @@ tag:
 
 The negative binomial count the number of Bernoulli trials at which the $r$-th success occurs. If we denote random varaible $X$ as the number of trails required. Noticed that when event $\{X=x\}$ occurs, the $x$th trial should be success and there are exactly $r-1$ success in the $x-1$ trails. Therefor, the probability mass function (pmf) is 
 
+<div style="overflow-x: auto; max-width: 100%;">
 $$
 \begin{aligned}
 P(X=x|r,p)&=\binom{x-1}{r-1}p^{r-1}(1-p)^{x-r}\cdot p\\
 &=\binom{x-1}{r-1}p^{r}(1-p)^{x-r},\quad x=r,r+1,\cdots
 \end{aligned}
 $$
+</div>
 
 The negative binomial is qeuivalently defined as the pmf of specfic failures before the $r$-th success. If $X$ is still the number of trails at which the $r$-th success occurs, the number of failures before is therefor $Y=X-r$. Thus, we find the pmf for $Y$ as
 
