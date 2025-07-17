@@ -216,7 +216,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-predict-commuting-transportation-choice",
           title: 'Predict Commuting Transportation Choice',
-          description: "[&quot;Logistic regression with hierarchical Bayesian model. Implemented in R with JAGS package. COurse project for SDS384-7 Bayesian Statistical Methods.&quot;]",
+          description: "[&quot;Logistic regression with hierarchical Bayesian model. Implemented in R with JAGS package.\\Course project for SDS384-7 Bayesian Statistical Methods.&quot;]",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bayesian/";
             },},{id: "projects-inverse-design-of-nano-scale-acoustic-surface",
