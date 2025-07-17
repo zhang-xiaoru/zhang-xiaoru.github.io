@@ -1,5 +1,5 @@
-.MathJax_Display {
-  overflow-x: auto;
+.MathJax_Display > .mjx-chtml{
+  overflow-x: auto !important;
   overflow-y: hidden;
   display: block;
   max-width: 100%;

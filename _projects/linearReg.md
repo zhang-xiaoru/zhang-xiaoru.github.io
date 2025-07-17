@@ -254,3 +254,5 @@ and the result of the test is given in the table below.
 We therefore reject $H_0$ and conclude that there is significant evidence to conclude the error distribution is not normal. 
 
 Since we have obvious non-normality in the error and non-significant unequal variance, performing a transformation on Y such as log transformation or another autonomous transformation technique such as Box-Cox procedure might be useful. 
+
+### Interpretation
