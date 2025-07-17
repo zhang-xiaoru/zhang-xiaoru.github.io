@@ -2,8 +2,8 @@
 layout: page
 title: Impact of Financial Indicators on Stock Market Performance
 # description: Course final project for 
-img: assets/img/12.jpg
-importance: 1
+img: assets/img/projects/linearReg/linearReg_cover.png
+#importance: 1
 #category: work
 related_publications: false
 pretty_table: true
