@@ -231,7 +231,7 @@ ninja.data = [{
               window.location.href = "/projects/linearReg/";
             },},{id: "projects-classifying-stellar-multiplicity",
           title: 'Classifying Stellar Multiplicity',
-          description: "",
+          description: "Using machine learning methods predict the star formation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/stellarClass/";
             },},{id: "research-project-1",
