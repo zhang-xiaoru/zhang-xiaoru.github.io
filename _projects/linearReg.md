@@ -182,11 +182,11 @@ From the residual plot, we notice that despite the residuals do not vary in a sy
 
 We perform the Brown-Forsythe test to test the constant error variance formally. The null and alternative hypotheses in used are
 
-<div style="overflow-x: auto; max-width: 100%;">
+
 $$
     H_0:\text{Error variance is constant}, \quad H_a:\text{Error variance is not constant}
 $$
-</div>
+
 
 and student t test is used as test statistics. The test result is shown in the following table. 
 
@@ -256,3 +256,56 @@ We therefore reject $H_0$ and conclude that there is significant evidence to con
 Since we have obvious non-normality in the error and non-significant unequal variance, performing a transformation on Y such as log transformation or another autonomous transformation technique such as Box-Cox procedure might be useful. 
 
 ### Interpretation
+The fitted result of our final model is shown in Table.\ref{tab2-5} and the corresponding interaction plot is shown in Figure.\ref{tab2-5}. The final model equation is thus
+
+$$
+E(Y) = 25.19 + 1.36\times10^{-7}X_1 + 4.86X_2+3.23\times10^{-7}X_1X_2\notag
+$$
+
+where $Y$=2019 Price Var, $X_1$=Centered R\&D Expenses, and $X_2$=5Y Dividend per Share.
+* For companies with decreased 5Y dividend per share (where $X_2=0$):
+
+  $$
+  E(Y) = 25.19 + 1.36\times 10^{-7}X_1
+  $$
+
+    1. For companies with decreased 5Y dividend per share, the mean price variance during the successive year is 25.19\% when the company's R\&D expense is at the mean value between all the companies studied.
+    2. For companies with decreased 5Y dividend per share, the mean price variance during the successive year increase $1.36\times 10^{-7}$% (1.36%) when the companies R\&D expenses increase 1\\$ ($1\times 10^7$\\$).
+* For companies with increased 5Y dividend per share (where $X_2=1$):
+
+    $$
+    \begin{aligned}
+        E(Y) &= (25.19 + 4.86) + (1.36 + 3.23)\times10^{-7}X_1\\
+        &= 30.05 + 4.59\times 10^{-7}X_1
+    \end{aligned} 
+    $$
+    
+    1. For companies with increased 5Y dividend per share, the mean price variance during the successive year is 30.05\% when the company's R\&D expenses is at the mean value between all the companies studied.
+    2. For companies with increased 5Y dividend per share, the mean price variance during the successive year increase $4.59\times10^{-4}$% (4.59\%) when the companies R\&D expenses increases 1\$ ($1\times10^{7}$\\$).
+    3. For companies with increased 5Y dividend per share, the mean price variance during the successive year when the companies R\&D expenses is at the mean value between all the companies studied is 4.85\% higher than that for companies with decreased 5Y dividend per share. 
+    4. For companies with increased 5Y dividend per share, the change of mean price variance during the successive year when the companies R&D expenses increased $1\times10^7$\\$ is 3.23% higher than that for companies with decreased 5Y dividend per share. 
+
+
+The ANOVA table for the linear model is shown in Table.\ref{tab2-9}.
+
+|Response | Df | Sum Sq | Mean Sq |
+|:--------|:-: |:------:|--------:|
+|  $X_1$  | 1  |  8429  |  8428.7 | 
+|  $X_2$  | 1  |   17   |   16.8  |
+|$X_1X_2$ | 1  |   1338 |  1338.3 |
+|Residuals| 412|2078054 |  5043.8 |
+
+<div class="caption">
+    ANOVA table
+</div>
+
+The coefficient of determination is thus $R^2=(8429 + 17 + 1338)/(8429+17+1338+2078054)=0.4\%$, which means only 0.4\% of variation is explained by the response variables in the model. 
+
+We further examine the poor performance of the model using an overall F-test on all 
+variables. The null and alternative hypothesis for the overall F-test is
+
+$$
+    H_0:\beta_1=\beta_2=\beta_{12}, \quad H_a:\text{At least one }\beta_k\neq 0 \notag
+$$
+
+the test statistics we used is $F(1-\alpha;p-1, n-p)$. From the Table.\ref{tab2-9}, we calculate the test statistics $F=MSR/MSE=\frac{(8429+17+1338)/3}{2078054/412}=0.6466$, the corresponding p-value is 0.5855. We therefore fail to reject $H_0$ and conclude that there are no predictors that are significantly linear related to the response. 

@@ -148,4 +148,4 @@ In a ROC plot, a perfect model is represented by a curve hugging the top-left co
  More specifically, the model prediction reach accruacy of 93% accuracy when the threshold is 0.5 (i.e. $>$ 0.5 predict label as 1; $\leq$ 0.5 predict as 0).
 
 ## Acknowledgement
-We thank Danilo Inoue from Maseeh Department of Civil, Architectural and Environmental Engineering, The University of Texas at Austin on collaborating this project.  
+We thank Danilo Inoue on collaborating this project.  

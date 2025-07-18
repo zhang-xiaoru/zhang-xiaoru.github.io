@@ -1,12 +1,21 @@
 ---
 layout: page
-title: Classifying Stellar Multiplicity
-#description: Classification of multiplicity for star formation based on numerical simulations
+title: Classifying Stellar Multiplicity 
+description: Using machine learning methods predict the star formation
 img: assets/img/projects/stellarClass/stellar_cover.jpg
 #importance: 1
 #category: 
 related_publications: false
 ---
+## Star Formation and Stellar Multiplicity
+<div class="row">
+    <div class="col-sm mt-6 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/star_form.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-6 mt-md-0">
+        Stars form when overdense regions of molecular (hydrogen gas) clouds contract due to gravity and reach temperatures capable of sustaining hydrogen fusion. Turbulence, magnetic fields, and stellar feedback complicate the dynamics of star formation. Star formation is a highly nonlinear process with a large dynamic range.
+    </div>
+</div>
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
