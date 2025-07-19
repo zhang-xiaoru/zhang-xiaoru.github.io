@@ -259,7 +259,7 @@ Since we have obvious non-normality in the error and non-significant unequal var
 The fitted result of our final model is shown in Table.\ref{tab2-5} and the corresponding interaction plot is shown in Figure.\ref{tab2-5}. The final model equation is thus
 
 $$
-E(Y) = 25.19 + 1.36\times10^{-7}X_1 + 4.86X_2+3.23\times10^{-7}X_1X_2\notag
+E(Y) = 25.19 + 1.36\times10^{-7}X_1 + 4.86X_2+3.23\times10^{-7}X_1X_2
 $$
 
 where $Y$=2019 Price Var, $X_1$=Centered R\&D Expenses, and $X_2$=5Y Dividend per Share.

@@ -5,6 +5,9 @@ description: Using machine learning methods predict the star formation
 img: assets/img/projects/stellarClass/stellar_cover.jpg
 #importance: 1
 #category: 
+pretty_table: true
+toc:
+  beginning: true
 related_publications: false
 ---
 ## Star Formation and Stellar Multiplicity
@@ -89,7 +92,7 @@ The SVM classification framwork is shown as below
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/SVM_schem.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/SVM_schem.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -117,7 +120,7 @@ The following figures shows the classification result using 30 time point on bot
 </div>
 The test set prediction accuracy reaches 75% and 72% for binary and multiclass classification. 
 
-We tune the hyperparameters $C$ and $\gamma$ usiang cross validation and randomized search. For different sampled point number, we obtained the test set accuracy for binary classification
+We tune the hyperparameter $C$ and $\gamma$ usiang cross validation and randomized search. For different sampled point number, we obtained the test set accuracy for binary classification
 
 |$N_{\mathrm{sample}}$|1|5|10|20|30|50|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -133,3 +136,5 @@ and for multiclass case
 |Best $\gamma$|scale|0.05|0.005|0.004|0.003|0.002|
 |Accuracy|64%|63%|73%|70%|69%|72%|
 
+## Acknowledgement
+We thank Nina Filippova on collaborating this project.
