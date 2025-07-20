@@ -51,7 +51,7 @@ The simulation data we used contains evolutionary process of $N_\mathrm{star}=21
 
 <div class="row">
     <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/processed_data.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/processed_data.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -60,10 +60,10 @@ The labels are create for each star according to their multiplicity. We set up t
 * Full classification on all multiplicity with labeling from 1 though 4
 
 ### Dataset preparation
-The quick examine on the data deistibution shows strang skewness in the data. The power transform and standardization are performed on data to remove the skewness.
+The quick examine on the data destitution shows strong skewness in the data. The power transform and standardization are performed on data to remove the skewness.
 <div class="row">
     <div class="col-sm-8 offset-md-2 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/row_data.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/raw_data.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -71,7 +71,7 @@ The quick examine on the data deistibution shows strang skewness in the data. Th
 The dataset is then splited into training and testing set with 7:3 ratio. 
 
 ### Cluster properties in high dimension
-We visualized the cluster properties of the high dimension data using its first 4 principle componenets
+We visualized the cluster properties of the high dimension data using its first 4 principle components
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -127,7 +127,7 @@ The test set prediction accuracy reaches 75% and 72% for binary and multiclass c
 
 We tune the hyperparameter $C$ and $\gamma$ usiang cross validation and randomized search. For different sampled point number, we obtained the test set accuracy for binary classification
 
-|$N_{\mathrm{sample}}$|1|5|10|20|30|50|
+|N|1|5|10|20|30|50|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
 |Best $C$|4.0|6.0|6.5|1.8|5.0|9.5|
 |Best $\gamma$|scale|0.003|0.005|0.001|0.001|0.001|
