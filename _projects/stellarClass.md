@@ -122,6 +122,9 @@ The following figures shows the classification result using 30 time point on bot
         {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/SVM_30_4class.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Visualizing classification result with first 4 principle components
+</div>
 
 The test set prediction accuracy reaches 75% and 72% for binary and multiclass classification. 
 
