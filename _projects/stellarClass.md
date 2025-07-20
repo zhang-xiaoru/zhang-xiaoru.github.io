@@ -91,7 +91,7 @@ Noticed that no strong linear seperability presented from the plot, meaning an n
 The SVM classification framwork is shown as below
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/SVM_schem.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -110,14 +110,19 @@ $$
 
 ### Result
 The following figures shows the classification result using 30 time point on both binary and full multiplicity.
+
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-8 offset-md-2 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/SVM_30_2class.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+</div>
+
+<dic class="row">
+    <div class="col-sm-8 offset-md-2 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/SVM_30_4class.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 The test set prediction accuracy reaches 75% and 72% for binary and multiclass classification. 
 
 We tune the hyperparameter $C$ and $\gamma$ usiang cross validation and randomized search. For different sampled point number, we obtained the test set accuracy for binary classification

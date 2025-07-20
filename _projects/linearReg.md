@@ -42,7 +42,7 @@ The response variable we wish to predict is
 We start the descriptive analysis examine the distribution of all the numerical variables. The following figures shows the histogram of all the numerical variable used. **2019 Price Var is the response variable** in used while all the rest are the numerical predictors.
 
 <div class="row">
-    <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
+    <div class="col-sm-8 offset-md-2 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/hist_numerical.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -98,7 +98,7 @@ and
 The following figures shows the scatter plot hows the scatter plot between the response variable and two categorical variables.
 
 <div class="row">
-    <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
+    <div class="col-sm-8 offset-md-2 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/scatter_categorical.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -109,7 +109,7 @@ The following figures shows the scatter plot hows the scatter plot between the r
 The scatter between the response variable and all numerical predictors shows a positive relation between Price variance and Gross profit, R\&D expenses, SG\&A expenses, and Total assets, while the scatter plot doesn't show a strong relation between Price variance and Revenue growth. 
 
 <div class="row">
-    <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
+    <div class="col-sm-8 offset-md-2 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/scatter_numerical.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -299,7 +299,11 @@ The ANOVA table for the linear model is shown in Table.\ref{tab2-9}.
     ANOVA table
 </div>
 
-The coefficient of determination is thus $R^2=(8429 + 17 + 1338)/(8429+17+1338+2078054)=0.4\%$, which means only 0.4\% of variation is explained by the response variables in the model. 
+The coefficient of determination is thus 
+
+$$R^2=(8429 + 17 + 1338)/(8429+17+1338+2078054)=0.4\%,$$
+
+which means only 0.4\% of variation is explained by the response variables in the model. 
 
 We further examine the poor performance of the model using an overall F-test on all 
 variables. The null and alternative hypothesis for the overall F-test is

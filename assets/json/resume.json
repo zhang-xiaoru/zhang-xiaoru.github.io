@@ -82,12 +82,13 @@
     {
       "name": "Reservoir Computing Using a Si-integrated Electro-optic Oxide",
       "publisher": "Manuscript under preparation",
+      "releaseDate": "2025"
       "summary": ""
     },
     {
       "name": "Detection and Demultiplexing of Cylindrical Vector Beams Enabled by Rotational Doppler Effect",
       "publisher": "Advanced Photonics Research",
-      "releaseDate": "2022-05-29",
+      "releaseDate": "2022-05",
       "url": "https://onlinelibrary.wiley.com/doi/10.1002/adpr.202200049",
       "summary": ""
     },
@@ -111,11 +112,20 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "WorldQuant BRAIN Alphathon",
+      "date": "2023"
+    },
+    {
+      "title": "Outstanding Thesis Award",
+      "date": "2022"
+    },
+    {
+      "title": "Dean's List of Xi'an Jiaotong University",
+      "date": "2021"
+    },
+    {
+      "title": "Everest International Exchange Scholarship in Physics",
+      "date": "2020"
     }
   ],
   "certificates": [
