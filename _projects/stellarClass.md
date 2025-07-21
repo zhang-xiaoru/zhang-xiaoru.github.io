@@ -128,7 +128,7 @@ The test set prediction accuracy reaches 75% and 72% for binary and multiclass c
 
 We tune the hyperparameter $C$ and $\gamma$ usiang cross validation and randomized search. For different sampled point number, we obtained the test set accuracy for binary classification
 
-|N|1|5|10|20|30|50|
+|$N_{\mathrm{sample}}$|1|5|10|20|30|50|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
 |Best $C$|4.0|6.0|6.5|1.8|5.0|9.5|
 |Best $\gamma$|scale|0.003|0.005|0.001|0.001|0.001|
