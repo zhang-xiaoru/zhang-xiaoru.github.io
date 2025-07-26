@@ -146,10 +146,10 @@ newsletter:
 collections:
   books:
     output: true
-  news:
-    defaults:
-      layout: post
-    output: true
+  #news:
+  #  defaults:
+  #    layout: post
+  #  output: true
   projects:
     output: true
   research:
@@ -205,6 +205,8 @@ exclude:
   - _pages/teaching.md
   - _pages/dropdown.md
   - _pages/books.md
+  - _news
+  - _includes/news.liquid
   #- assets/json/resume.json
 keep_files:
   - CNAME
