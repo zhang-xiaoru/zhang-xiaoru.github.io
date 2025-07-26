@@ -2,10 +2,10 @@
 layout: page
 title: Predict Commuting Transportation Choice
 description:
-  - 'Logistic regression with hierarchical Bayesian model. Implemented in R with JAGS package.\Course project for SDS384-7 Bayesian Statistical Methods.'
+  - 'Logistic regression with hierarchical Bayesian model. Predicting binary commuting methods choice with grouping effect. Implemented in R with JAGS package.\Course project for SDS384-7 Bayesian Statistical Methods.'
 img: assets/img/projects/bayesian/bayesian_cover.jpg
 #importance: 1
-#category: work
+category: 2025
 related_publications: false
 pretty_table: true
 toc:

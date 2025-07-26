@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Impact of Financial Indicators on Stock Market Performance
-# description: Course final project for 
+description: Regression analysis on 400+ US public trade farm. Performed model selection process and residual diagnostic. Implemented and visualized result in R. Course project for M384G Regression Analysis 
 img: assets/img/projects/linearReg/linearReg_cover.png
 #importance: 1
-#category: work
+category: 2024
 related_publications: false
 pretty_table: true
 toc:

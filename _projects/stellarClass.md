@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Classifying Stellar Multiplicity 
-description: Using machine learning methods predict the star formation
+description: Classification of star system multiplicity using features extracted from simulated evoluationary data. Implemented in Python with Scikit-learn. Course project for CSE382M Fundational Technics in Machine Learning & Data Science.
 img: assets/img/projects/stellarClass/stellar_cover.jpg
 #importance: 1
-#category: 
+category: 2024
 pretty_table: true
 toc:
   beginning: true
