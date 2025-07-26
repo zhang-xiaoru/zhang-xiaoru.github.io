@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -205,7 +205,7 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "projects-predict-commuting-transportation-choice",
           title: 'Predict Commuting Transportation Choice',
-          description: "[&quot;Logistic regression with hierarchical Bayesian model. Implemented in R with JAGS package.\\Course project for SDS384-7 Bayesian Statistical Methods.&quot;]",
+          description: "[&quot;Logistic regression with hierarchical Bayesian model. Predicting binary commuting methods choice with grouping effect. Implemented in R with JAGS package.\\Course project for SDS384-7 Bayesian Statistical Methods.&quot;]",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bayesian/";
             },},{id: "projects-inverse-design-of-nano-scale-acoustic-surface",
@@ -215,12 +215,12 @@ ninja.data = [{
               window.location.href = "/projects/inverse/";
             },},{id: "projects-impact-of-financial-indicators-on-stock-market-performance",
           title: 'Impact of Financial Indicators on Stock Market Performance',
-          description: "",
+          description: "Regression analysis on 400+ US public trade farm. Performed model selection process and residual diagnostic. Implemented and visualized result in R. Course project for M384G Regression Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/linearReg/";
             },},{id: "projects-classifying-stellar-multiplicity",
           title: 'Classifying Stellar Multiplicity',
-          description: "Using machine learning methods predict the star formation",
+          description: "Classification of star system multiplicity using features extracted from simulated evoluationary data. Implemented in Python with Scikit-learn. Course project for CSE382M Fundational Technics in Machine Learning &amp; Data Science.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/stellarClass/";
             },},{id: "research-project-1",
@@ -248,7 +248,21 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%78%69%61%6F%72%75%7A%68%61%6E%67@%75%74%65%78%61%73.%65%64%75%63%6F%6D", "_blank");
+          window.open("mailto:%78%69%61%6F%72%75%7A%68%61%6E%67@%75%74%65%78%61%73.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/zhang-xiaoru", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/xiaoru-zhang", "_blank");
         },
       },{
       id: 'light-theme',
