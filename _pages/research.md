@@ -13,7 +13,7 @@ horizontal: true
 </h2>
 
 <h3>
-  Large-scale Material Modeling with Machine Learning Approach
+  Large-scale Ferroelectric Modeling with Machine Learning Approach
 </h3>
 
 

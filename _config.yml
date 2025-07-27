@@ -97,7 +97,7 @@ pagination:
 
 related_blog_posts:
   enabled: true
-  max_related: 5
+  max_related: 3
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -152,8 +152,8 @@ collections:
   #  output: true
   projects:
     output: true
-  research:
-    output: true
+  #research:
+  #  output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -207,6 +207,7 @@ exclude:
   - _pages/books.md
   - _news
   - _includes/news.liquid
+  - _ pages/research.md
   #- assets/json/resume.json
 keep_files:
   - CNAME
