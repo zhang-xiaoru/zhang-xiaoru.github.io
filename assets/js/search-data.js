@@ -223,26 +223,6 @@ ninja.data = [{
           description: "Classification of star system multiplicity using features extracted from simulated evoluationary data. Implemented in Python with Scikit-learn. Course project for CSE382M Fundational Technics in Machine Learning &amp; Data Science.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/stellarClass/";
-            },},{id: "research-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Research",handler: () => {
-              window.location.href = "/research/inverseDesign/";
-            },},{id: "research-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Research",handler: () => {
-              window.location.href = "/research/metaAcoustic/";
-            },},{id: "research-electro-optics-reservoir-computing",
-          title: 'Electro-optics reservoir computing',
-          description: "",
-          section: "Research",handler: () => {
-              window.location.href = "/research/reservoir/";
-            },},{id: "research-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Research",handler: () => {
-              window.location.href = "/research/structureLight/";
             },},{
         id: 'social-email',
         title: 'email',
