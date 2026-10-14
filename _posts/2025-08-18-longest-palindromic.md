@@ -1,24 +1,24 @@
 ---
 layout: post
 title: Longest Palindromic Substring
-description: find the lengest palindromic substring in a given string s
+description: Find the longest palindromic substring in a given string s
 date: 2025-08-18 11:00:00-0600
-categorize:
+categories:
   - algorithm
   - python
-tag:
+tags:
   - algorithm
   - string
 ---
 
-## Dynamical Programming Approach
+## Dynamic Programming Approach
 Time complexity $O(n^2)$, Space complexity $O(n^2)$
 ```python
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        # dynamical programing scheme; O(n^2) time complexity; O(n^2) space complexity
+        # dynamic programming scheme; O(n^2) time complexity; O(n^2) space complexity
         n = len(s)
-        truethTable = [[0] * n for _ in range(n)] # table that record if subarry start from i to j is palindromic
+        truethTable = [[0] * n for _ in range(n)] # table that record if subarray start from i to j is palindromic
         Maxlen = 0
         start = 0
         end = 0
@@ -60,7 +60,7 @@ class Solution:
             # consider subarray with odd length
             oddleft = i
             oddright = i
-            while oddleft >= 0. and oddright < len(s) and s[oddleft] == s[oddright]:
+            while oddleft >= 0 and oddright < len(s) and s[oddleft] == s[oddright]:
                     oddleft -= 1
                     oddright += 1
             oddSubarray = s[oddleft + 1:oddright]
@@ -86,7 +86,6 @@ class Solution:
         maxPalinList = [1] * n
         maxLen = 1
         maxStr = []
-        print(extendedS)
         for i in range(0, n-1):
             if i + maxPalinList[i] <= i + 1:
                 extendedR = 0
@@ -108,5 +107,5 @@ class Solution:
 
 ## Ref
 
-1. https://cp-algorithms.com/string/manacher.html
+1. <https://cp-algorithms.com/string/manacher.html>
 2. 

@@ -208,6 +208,7 @@ exclude:
   - _includes/news.liquid
   - _pages/research.md
   - _projects/inverse.md
+  - _books/
   #- assets/json/resume.json
 keep_files:
   - CNAME
