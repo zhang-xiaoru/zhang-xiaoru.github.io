@@ -37,11 +37,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-qe",
+        },{id: "post-dft-calculations-using-quantum-espresso",
         
-          title: "Qe",
+          title: "DFT Calculations Using Quantum ESPRESSO",
         
-        description: "",
+        description: "Setting up QE-modes in Emacs for editing Quantum ESPRESSO input files",
         section: "Posts",
         handler: () => {
           
@@ -52,7 +52,7 @@ ninja.data = [{
         
           title: "Longest Palindromic Substring",
         
-        description: "find the lengest palindromic substring in a given string s",
+        description: "Find the longest palindromic substring in a given string s",
         section: "Posts",
         handler: () => {
           
@@ -63,7 +63,7 @@ ninja.data = [{
         
           title: "Negative Binomial Distribution",
         
-        description: "a brife note for negtivae binomial distribution",
+        description: "A brief note on the negative binomial distribution",
         section: "Posts",
         handler: () => {
           
@@ -74,7 +74,7 @@ ninja.data = [{
         
           title: "Catalan Numbers",
         
-        description: "counting for binary string with non-exceeding segments",
+        description: "Counting binary strings with non-exceeding segments",
         section: "Posts",
         handler: () => {
           
@@ -83,9 +83,9 @@ ninja.data = [{
         },
       },{id: "post-latex-to-word-conversion",
         
-          title: "LaTex To Word Conversion",
+          title: "LaTeX to Word Conversion",
         
-        description: "convert LaTex file into Word with formatting",
+        description: "Convert LaTeX files into Word with formatting",
         section: "Posts",
         handler: () => {
           
@@ -96,7 +96,7 @@ ninja.data = [{
         
           title: "Guide to TACC",
         
-        description: "a note for using Texas Advanced Computing Center (TACC)",
+        description: "A note on using the Texas Advanced Computing Center (TACC)",
         section: "Posts",
         handler: () => {
           
@@ -118,7 +118,7 @@ ninja.data = [{
         
           title: "Python Type Annotations",
         
-        description: "making type hint for Python functions",
+        description: "Adding type hints to Python functions",
         section: "Posts",
         handler: () => {
           
@@ -129,7 +129,7 @@ ninja.data = [{
         
           title: "Martingales",
         
-        description: "a short intro to martingales",
+        description: "A short intro to martingales",
         section: "Posts",
         handler: () => {
           
@@ -140,7 +140,7 @@ ninja.data = [{
         
           title: "Cross Validation For Time Series Data",
         
-        description: "how to perform cross validation for time sequence data",
+        description: "How to perform cross-validation for time series data",
         section: "Posts",
         handler: () => {
           
@@ -151,7 +151,7 @@ ninja.data = [{
         
           title: "Make shortcut for directory in zsh",
         
-        description: "way to make shortcut to working directories",
+        description: "Ways to make shortcuts to working directories",
         section: "Posts",
         handler: () => {
           
@@ -173,7 +173,7 @@ ninja.data = [{
         
           title: "Simple Random Walk",
         
-        description: "note in simple random walk",
+        description: "Notes on simple random walks",
         section: "Posts",
         handler: () => {
           
@@ -184,7 +184,7 @@ ninja.data = [{
         
           title: "Significance test",
         
-        description: "A short intro to statistical test",
+        description: "A short intro to statistical tests",
         section: "Posts",
         handler: () => {
           
@@ -193,32 +193,27 @@ ninja.data = [{
         },
       },{id: "post-how-to-uninstall-pkg-in-macos",
         
-          title: "How to uninstall pkg in MacOS",
+          title: "How to uninstall pkg in macOS",
         
-        description: "clean unused pkgs in MacOS",
+        description: "Clean up unused pkgs in macOS",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/uninstall-pkg/";
           
         },
-      },{id: "post-create-blog-with-hugo-and-papermod-themes",
+      },{id: "post-create-a-blog-with-hugo-and-the-papermod-theme",
         
-          title: "Create blog with Hugo and PaperMod themes",
+          title: "Create a Blog with Hugo and the PaperMod Theme",
         
-        description: "Making static blog web using Hugo and PaperMod themes",
+        description: "Making a static blog using Hugo and the PaperMod theme",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/make-blog/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "projects-predict-commuting-transportation-choice",
+      },{id: "projects-predict-commuting-transportation-choice",
           title: 'Predict Commuting Transportation Choice',
           description: "[&quot;Logistic regression with hierarchical Bayesian model. Predicting binary commuting methods choice with grouping effect. Implemented in R with JAGS package.\\Course project for SDS384-7 Bayesian Statistical Methods.&quot;]",
           section: "Projects",handler: () => {
