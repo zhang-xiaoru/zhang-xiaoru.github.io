@@ -37,7 +37,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-negative-binomial-distribution",
+        },{id: "post-qe",
+        
+          title: "Qe",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/qe/";
+          
+        },
+      },{id: "post-longest-palindromic-substring",
+        
+          title: "Longest Palindromic Substring",
+        
+        description: "find the lengest palindromic substring in a given string s",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/longest-palindromic/";
+          
+        },
+      },{id: "post-negative-binomial-distribution",
         
           title: "Negative Binomial Distribution",
         
@@ -201,11 +223,6 @@ ninja.data = [{
           description: "[&quot;Logistic regression with hierarchical Bayesian model. Predicting binary commuting methods choice with grouping effect. Implemented in R with JAGS package.\\Course project for SDS384-7 Bayesian Statistical Methods.&quot;]",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bayesian/";
-            },},{id: "projects-inverse-design-of-nano-scale-acoustic-surface",
-          title: 'Inverse design of nano-scale acoustic surface',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/inverse/";
             },},{id: "projects-impact-of-financial-indicators-on-stock-market-performance",
           title: 'Impact of Financial Indicators on Stock Market Performance',
           description: "Regression analysis on 400+ US public trade farm. Performed model selection process and residual diagnostic. Implemented and visualized result in R. Course project for M384G Regression Analysis",
