@@ -12,11 +12,10 @@ toc:
 ---
 ## Introduction
 Stock price variance is an important indicator to evaluate a company’s performance,
-and has been widely used for participants from institutional investors and individual traders to construct portfolios. The performance of a company is usually related to various financial indicators, and finding financial indicators as good predictors of stock price movement is of great interest. Due to the complex and volatile nature of the financial market, a statistical method is often preferred. The purpose of this study is to analyses the relationship between different financial indicators and the stock price variance and quantify the result with statistical methods. Every project has a beautiful feature showcase page.
+and has been widely used for participants from institutional investors and individual traders to construct portfolios. The performance of a company is usually related to various financial indicators, and finding financial indicators as good predictors of stock price movement is of great interest. Due to the complex and volatile nature of the financial market, a statistical method is often preferred. The purpose of this study is to analyses the relationship between different financial indicators and the stock price variance and quantify the result with statistical methods.
 
 ## Dataset Description
 In this project, we investigated the public traded companies in the U.S. stock market in 2018. Due to the scope of the project, only a partial of the companies are included. We selected 6 different financial indicators as predictor varaibles
-* Revenue growth [%]: A numerical varaible describing the increase in a compan
 
 * Revenue growth [%]: A numerical variable describing the increase in a company's income generated.
 * Gross profit [\\$]: A numerical variable describing the amount a company makes after deducing the direct cost associated with producing its goods from revenue. 
@@ -43,7 +42,7 @@ We start the descriptive analysis examine the distribution of all the numerical 
 
 <div class="row">
     <div class="col-sm-8 offset-md-2 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/hist_numerical.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/hist_numerical.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -99,7 +98,7 @@ The following figures shows the scatter plot hows the scatter plot between the r
 
 <div class="row">
     <div class="col-sm-8 offset-md-2 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/scatter_categorical.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/scatter_categorical.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -110,7 +109,7 @@ The scatter between the response variable and all numerical predictors shows a p
 
 <div class="row">
     <div class="col-sm-8 offset-md-2 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/scatter_numerical.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/scatter_numerical.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -121,7 +120,7 @@ The following demonstrate the correlation matrix of all numerical variables. Not
 
 <div class="row">
     <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/corr_numerical.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/corr_numerical.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -156,7 +155,7 @@ The blow figure shows the scatter plot between responses and predictors, as well
 
 <div class="row">
     <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/fit_scatter.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/fit_scatter.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -168,10 +167,10 @@ After constructing the regression model, we proceed with diagnostics on testing 
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/res_pred.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/res_pred.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/res_fit.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/res_fit.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -204,7 +203,7 @@ Next, we examine the independence between error terms using a sequential plot of
 
 <div class="row">
     <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/res_seq.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/res_seq.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -215,7 +214,7 @@ Since our data is originally strongly effected by the outliers, we therefore use
 
 <div class="row">
     <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/sem_res.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/sem_res.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -228,7 +227,7 @@ At last, we examine visually the normality or error term using a quantile-quanti
 
 <div class="row">
     <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/norm.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/linearReg/norm.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

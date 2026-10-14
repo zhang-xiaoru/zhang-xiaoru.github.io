@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Xiaoru ZHang",
+    "name": "Xiaoru Zhang",
     "label": "Ph.D. in Physics",
     "image": "",
     "email": "xiaoruzhang@utexas.edu",
@@ -8,7 +8,7 @@
     "url": "https://zhang-xiaoru.github.io",
     "summary": "Ph.D. candidate in computational/theoretical condensed matter physics.",
     "location": {
-      "address": "2515 Speed Way",
+      "address": "2515 Speedway",
       "postalCode": "TX 78712",
       "city": "Austin",
       "countryCode": "US",
@@ -18,14 +18,14 @@
       {
         "network": "LinkedIn",
         "username": "xiaoru-zhang",
-        "url": "https://twitter.com/AlbertEinstein"
+        "url": "https://www.linkedin.com/in/xiaoru-zhang"
       }
     ]
   },
   "work": [
     {
       "name": "Center for Complex Quantum System",
-      "position": "Graduate Research Assistance",
+      "position": "Graduate Research Assistant",
       "url":"https://sites.utexas.edu/aadg/",
       "startDate": "2024",
       "endDate": "Present",
@@ -33,14 +33,14 @@
     },
     {
       "name": "Center for Complex Quantum System",
-      "position": "Graduate Research Assistance",
+      "position": "Graduate Research Assistant",
       "startDate": "2022",
       "endDate": "2024",
       "summary": "Design, Fabrication and Characteristic of Acoustic Metamaterials"
     },
     {
       "name": "Xi'an Jiaotong University",
-      "position": "Undergraduate Research Assistance",
+      "position": "Undergraduate Research Assistant",
       "startDate": "2021",
       "endDate": "2022",
       "summary": "Spatial-temporal Modulation of Optical Vortex Beam"

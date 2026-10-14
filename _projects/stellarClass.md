@@ -13,7 +13,7 @@ related_publications: false
 ## Star Formation and Stellar Multiplicity
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/star_form.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/star_form.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         <p>Stars form when overdense regions of molecular (hydrogen gas) clouds contract due to gravity and reach temperatures capable of sustaining hydrogen fusion. Turbulence, magnetic fields, and stellar feedback complicate the dynamics of star formation. Star formation is a highly nonlinear process with a large dynamic range.</p>
@@ -25,14 +25,14 @@ related_publications: false
         <p>In the end, the concentration of gas will be dense enough to form start. In reality, most start from in gravitationally-bound systems composed of multiple starts. The number of stars that are bounded is referred as multiplicity</p>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/star_form2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/star_form2.png" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/star_form3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/star_form3.png" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Grudić et al. (2021) 
         </div>
@@ -51,7 +51,7 @@ The simulation data we used contains evolutionary process of $N_\mathrm{star}=21
 
 <div class="row">
     <div class="col-sm-6 offset-md-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/processed_data.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/processed_data.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -63,7 +63,7 @@ The labels are create for each star according to their multiplicity. We set up t
 The quick examine on the data destitution shows strong skewness in the data. The power transform and standardization are performed on data to remove the skewness.
 <div class="row">
     <div class="col-sm-8 offset-md-2 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/raw_data.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/raw_data.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -75,10 +75,10 @@ We visualized the cluster properties of the high dimension data using its first 
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/PCA_30_2class.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/PCA_30_2class.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/PCA_30_4class.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/PCA_30_4class.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -92,7 +92,7 @@ The SVM classification framwork is shown as below
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/SVM_schem.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/SVM_schem.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -113,13 +113,13 @@ The following figures shows the classification result using 30 time point on bot
 
 <div class="row">
     <div class="col-sm-8 offset-md-2 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/SVM_30_2class.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/SVM_30_2class.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm-8 offset-md-2 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/SVM_30_4class.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/stellarClass/SVM_30_4class.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
