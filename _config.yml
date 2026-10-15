@@ -151,8 +151,8 @@ collections:
   #  output: true
   projects:
     output: true
-  #research:
-  #  output: true
+  research:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -206,7 +206,6 @@ exclude:
   - _pages/books.md
   - _news
   - _includes/news.liquid
-  - _pages/research.md
   - _projects/inverse.md
   - _books/
   #- assets/json/resume.json

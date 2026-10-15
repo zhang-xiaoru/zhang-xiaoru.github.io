@@ -1,0 +1,41 @@
+- id: computational
+  short_title: Computational research
+  stage: Current research
+  title: Computational Materials & Devices
+  affiliation: Graduate research · The University of Texas at Austin
+  description: >-
+    I use first-principles calculations to study functional oxides and semiconductor
+    interfaces for electronic and electro-optic integration. My research connects
+    atomic-scale structure and electronic properties with device behavior,
+    including numerical models of silicon-integrated electro-optic reservoirs.
+  image: /assets/img/research/materials.svg
+  image_alt: Conceptual diagram of an oxide–semiconductor interface
+  caption: Conceptual schematic of an oxide–semiconductor interface.
+
+- id: experimental
+  short_title: Experimental research
+  stage: Previous graduate research
+  title: Experimental Acoustics & MEMS
+  affiliation: Graduate research · The University of Texas at Austin
+  description: >-
+    I investigated how nanoscale devices guide and confine acoustic waves,
+    combining simulation and mask design with fabrication and characterization.
+    Spatial measurements of acoustic propagation, together with SEM and AFM,
+    helped me identify fabrication-related failures and refine designs and processes.
+  image: /assets/img/research/phononic-crystal.jpeg
+  image_alt: SEM image of a patterned snowflake phononic crystal
+  caption: Phononic crystal device shown in my August 2024 qualification presentation.
+
+- id: optics
+  short_title: Undergraduate research
+  stage: Undergraduate research
+  title: Structured Light & Optical Experiments
+  affiliation: Undergraduate research
+  description: >-
+    I developed a Fourier-domain inverse method to recover vector optical modes,
+    implemented it in MATLAB, and programmed a spatial light modulator.
+    I designed and assembled an optical-table setup for experimental verification,
+    connecting computational analysis with hands-on optical measurements.
+  image: /assets/img/research/optics.svg
+  image_alt: Conceptual optical path through a spatial light modulator to detection
+  caption: Conceptual schematic of structured-light generation and analysis.
