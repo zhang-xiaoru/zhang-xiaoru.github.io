@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-research",
+          title: "research",
+          description: "Materials modeling, acoustic devices, and optical experiments.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-projects",
           title: "projects",
           description: "",
           section: "Navigation",
@@ -228,6 +235,36 @@ ninja.data = [{
           description: "Classification of star system multiplicity using features extracted from simulated evoluationary data. Implemented in Python with Scikit-learn. Course project for CSE382M Fundational Technics in Machine Learning &amp; Data Science.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/stellarClass/";
+            },},{id: "research-oxide-semiconductor-interfaces",
+          title: 'Oxide–semiconductor interfaces',
+          description: "Investigating functional oxides and interface electronic properties for semiconductor integration.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/oxide-semiconductor-interfaces/";
+            },},{id: "research-inverse-designed-acoustic-splitters",
+          title: 'Inverse-designed acoustic splitters',
+          description: "Designing acoustic scattering patterns and translating simulated geometries into multilayer fabrication masks.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/inverse-designed-acoustic-splitters/";
+            },},{id: "research-topological-acoustic-devices",
+          title: 'Topological acoustic devices',
+          description: "Investigating gigahertz acoustic propagation in patterned phononic structures using spatially resolved measurements.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/topological-acoustic-devices/";
+            },},{id: "research-electro-optic-reservoir-computing",
+          title: 'Electro-optic reservoir computing',
+          description: "Numerical modeling of silicon-integrated BaTiO₃ electro-optic devices for neuromorphic computing.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/electro-optic-reservoir-computing/";
+            },},{id: "research-one-port-acoustic-resonators",
+          title: 'One-port acoustic resonators',
+          description: "Investigating acoustic confinement and leakage through device modeling, fabrication, and microscopy.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/one-port-acoustic-resonators/";
+            },},{id: "research-vector-optical-mode-demultiplexing",
+          title: 'Vector optical-mode demultiplexing',
+          description: "Recovering vector optical modes through Fourier-domain analysis and experimental verification with a spatial light modulator.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/vector-optical-mode-demultiplexing/";
             },},{
         id: 'social-email',
         title: 'email',
