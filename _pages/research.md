@@ -23,19 +23,21 @@ research_styles: true
         <h2 id="{{ area.id }}-title">{{ area.title }}</h2>
         <p class="research-affiliation">{{ area.affiliation }}</p>
         <p>{{ area.description }}</p>
+        {% if area.details_url %}
+        <a class="research-details-link" href="{{ area.details_url | relative_url }}">{{ area.details_label }} <span aria-hidden="true">&rarr;</span></a>
+        {% endif %}
       </div>
       <figure class="research-overview-figure">
-        <img src="{{ area.image | relative_url }}" alt="{{ area.image_alt }}" width="640" height="400" {% if forloop.first %}loading="eager"{% else %}loading="lazy"{% endif %}>
-        <figcaption>{{ area.caption }}</figcaption>
+        {% include research_figure.liquid placeholder=area.image_placeholder path=area.image alt=area.image_alt caption=area.caption %}
       </figure>
     </div>
     <ul class="research-cards" aria-label="Projects in {{ area.title }}">
-      {% assign projects = site.research | where: 'area', area.id | sort: 'order' %}
+      {% assign projects = site.research | where: 'area', area.id | where_exp: 'project', 'project.card != false' | sort: 'order' %}
       {% for project in projects %}
       <li>
         <a class="research-card card h-100 hoverable" href="{{ project.url | relative_url }}">
           <div class="research-card-image">
-            <img src="{{ project.img | relative_url }}" alt="{{ project.image_alt }}" width="640" height="400" loading="lazy">
+            {% include research_figure.liquid placeholder=project.image_placeholder path=project.img alt=project.image_alt %}
           </div>
           <div class="research-card-body card-body">
             <p class="research-eyebrow">{{ project.methods }}</p>

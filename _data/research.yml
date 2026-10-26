@@ -1,33 +1,39 @@
 - id: computational
-  short_title: Computational research
+  short_title: Computational Material
   stage: Current research
-  title: Computational Materials & Devices
+  title: Computational Material & Device Modleing
   affiliation: Graduate research · The University of Texas at Austin
   description: >-
     I use first-principles calculations to study functional oxides and semiconductor
     interfaces for electronic and electro-optic integration. My research connects
     atomic-scale structure and electronic properties with device behavior,
     including numerical models of silicon-integrated electro-optic reservoirs.
+  image_placeholder: true
   image: /assets/img/research/materials.svg
   image_alt: Conceptual diagram of an oxide–semiconductor interface
   caption: Conceptual schematic of an oxide–semiconductor interface.
 
 - id: experimental
-  short_title: Experimental research
+  short_title: Nanoscale SAW devices
   stage: Previous graduate research
-  title: Experimental Acoustics & MEMS
+  title: Nanoscale Surface Acoustic Wave Devices
   affiliation: Graduate research · The University of Texas at Austin
   description: >-
-    I investigated how nanoscale devices guide and confine acoustic waves,
-    combining simulation and mask design with fabrication and characterization.
-    Spatial measurements of acoustic propagation, together with SEM and AFM,
-    helped me identify fabrication-related failures and refine designs and processes.
-  image: /assets/img/research/phononic-crystal.jpeg
-  image_alt: SEM image of a patterned snowflake phononic crystal
-  caption: Phononic crystal device shown in my August 2024 qualification presentation.
+    In my first two years of graduate research, I worked on surface acoustic wave
+    (SAW) devices in micro-electro-mechanical systems (MEMS), covering the full
+    device-engineering cycle from simulation and CAD design to nanofabrication and
+    characterization. Beyond electrical measurements with a vector network analyzer,
+    I used transmission-mode microwave impedance microscopy (TMIM) to image
+    electro-mechanical waves inside working devices with sub-micron resolution.
+  details_url: /research/saw-background/
+  details_label: Background on SAW devices, fabrication, and TMIM
+  image_placeholder: false
+  image: /assets/img/research/saw/saw-roadmap.png
+  image_alt: Diagram of research areas enabled by surface acoustic waves
+  caption: Research directions enabled by SAW devices. Adapted from J. Phys. D 52, 353001 (2019).
 
 - id: optics
-  short_title: Undergraduate research
+  short_title: Photonics & optics communication
   stage: Undergraduate research
   title: Structured Light & Optical Experiments
   affiliation: Undergraduate research
@@ -36,6 +42,7 @@
     implemented it in MATLAB, and programmed a spatial light modulator.
     I designed and assembled an optical-table setup for experimental verification,
     connecting computational analysis with hands-on optical measurements.
+  image_placeholder: true
   image: /assets/img/research/optics.svg
   image_alt: Conceptual optical path through a spatial light modulator to detection
   caption: Conceptual schematic of structured-light generation and analysis.

@@ -5,6 +5,7 @@ description: "Recovering vector optical modes through Fourier-domain analysis an
 permalink: "/research/vector-optical-mode-demultiplexing/"
 area: "optics"
 order: 1
+image_placeholder: true
 img: "/assets/img/research/optics.svg"
 image_alt: "Conceptual optical path; not a reconstruction of the experimental setup."
 methods: "Optical experiments · MATLAB"

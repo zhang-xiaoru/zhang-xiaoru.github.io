@@ -1,0 +1,8 @@
+{% if include.placeholder %}
+  <div class="research-figure-placeholder" role="img" aria-label="Figure in preparation">
+    <span aria-hidden="true">Figure in preparation</span>
+  </div>
+{% else %}
+  <img src="{{ include.path | relative_url }}" alt="{{ include.alt | escape }}" width="640" height="400" loading="{{ include.loading | default: 'lazy' }}">
+  {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+{% endif %}

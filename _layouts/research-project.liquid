@@ -4,9 +4,10 @@ layout: page
 <div class="research-detail">
   <a class="research-back" href="{{ '/research/' | relative_url }}#{{ page.area }}">&larr; Back to research</a>
   <p class="research-eyebrow">{{ page.methods }}</p>
+  {% if page.img or page.image_placeholder %}
   <figure class="research-detail-figure">
-    <img src="{{ page.img | relative_url }}" alt="{{ page.image_alt }}" width="640" height="400">
-    <figcaption>{{ page.caption }}</figcaption>
+    {% include research_figure.liquid placeholder=page.image_placeholder path=page.img alt=page.image_alt caption=page.caption loading='eager' %}
   </figure>
+  {% endif %}
   {{ content }}
 </div>

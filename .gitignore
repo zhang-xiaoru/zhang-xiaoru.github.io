@@ -11,3 +11,9 @@ assets/libs/
 node_modules/
 vendor
 .idea
+# Local drafting files for the research pages
+qualify-slide45-fixed.pptx
+research_draft.md
+research_guide/
+research_guide_tools/
+bin/preview

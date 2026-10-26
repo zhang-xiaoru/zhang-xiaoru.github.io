@@ -5,6 +5,7 @@ description: "Numerical modeling of silicon-integrated BaTiO₃ electro-optic de
 permalink: "/research/electro-optic-reservoir-computing/"
 area: "computational"
 order: 2
+image_placeholder: true
 img: "/assets/img/research/reservoir.svg"
 image_alt: "Conceptual reservoir feedback loop; not a device layout."
 methods: "Device simulation · Python"

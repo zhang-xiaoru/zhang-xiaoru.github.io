@@ -5,6 +5,7 @@ description: "Investigating functional oxides and interface electronic propertie
 permalink: "/research/oxide-semiconductor-interfaces/"
 area: "computational"
 order: 1
+image_placeholder: true
 img: "/assets/img/research/materials.svg"
 image_alt: "Conceptual schematic; not an atomistic simulation result."
 methods: "First-principles modeling"

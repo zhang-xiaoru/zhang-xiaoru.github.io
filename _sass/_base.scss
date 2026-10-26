@@ -694,6 +694,60 @@ footer.sticky-bottom {
 
 // Publications
 
+// Horizontal project cards: contain figures and let text determine card height.
+.projects {
+  .project-horizontal-card {
+    overflow: hidden;
+  }
+
+  .project-horizontal-link {
+    display: grid;
+    grid-template-columns: minmax(0, 30%) minmax(0, 1fr);
+    align-items: center;
+    color: var(--global-text-color);
+
+    &.project-without-image { grid-template-columns: minmax(0, 1fr); }
+    &:focus-visible { outline: 3px solid var(--global-theme-color); outline-offset: -3px; }
+  }
+
+  .project-thumbnail { min-width: 0; padding: 1rem; }
+  .project-thumbnail figure { margin: 0; }
+  .project-thumbnail picture { display: block; }
+  .project-thumbnail-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    border-radius: .2rem;
+  }
+  .project-horizontal-card .card-body { min-width: 0; padding: 1.5rem; }
+  .project-horizontal-card .card-title { font-size: 1.4rem; line-height: 1.35; overflow-wrap: break-word; }
+  .project-horizontal-card .card-text { margin-bottom: 0; line-height: 1.65; }
+  .project-card-link { border: 0; border-radius: 0; flex: 1; }
+  .project-repository { padding: 0 1.25rem 1rem; }
+
+  h2.category { color: var(--global-text-color-light); }
+
+  @media (max-width: 767px) {
+    .project-horizontal-link { grid-template-columns: minmax(0, 1fr); }
+    .project-thumbnail { padding: 1rem 1rem 0; }
+    .project-thumbnail-img { max-height: 15rem; }
+    .project-horizontal-card .card-body { padding: 1.25rem; }
+  }
+}
+
+// Keep the footer below project content instead of covering cards on scroll.
+body.projects-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-bottom: 0;
+
+  > [role="main"] { flex: 1 0 auto; margin-bottom: 2rem; }
+  > footer.fixed-bottom { position: static; flex-shrink: 0; }
+}
+
 .publications {
   margin-top: 2rem;
 

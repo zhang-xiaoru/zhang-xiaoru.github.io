@@ -22,10 +22,34 @@
 .research-card h3 { font-size: 1.25rem; line-height: 1.35; margin: 0 0 .65rem; }
 .research-card-body > p:not(.research-eyebrow) { font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem; color: var(--global-text-color); }
 .research-card-link { margin-top: auto; color: var(--global-theme-color); font-size: .85rem; }
+.research-details-link { display: inline-block; font-size: .9rem; padding-bottom: .2rem; border-bottom: 1px solid var(--global-divider-color); }
+.research-details-link:focus-visible { outline: 3px solid var(--global-theme-color); outline-offset: 4px; }
+.research-detail figure { margin: 1.5rem 0; }
 .research-detail { max-width: 48rem; }
 .research-back { display: inline-block; margin-bottom: 1.5rem; }
 .research-detail-figure { margin: 1rem 0 2rem; }
 .research-detail-figure img { display: block; max-width: 100%; width: 100%; height: auto; max-height: 25rem; object-fit: contain; background: #f5f7f8; }
+.research-figure-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 8 / 5;
+  padding: 1rem;
+  border: 1px dashed var(--global-divider-color);
+  border-radius: .25rem;
+  background: var(--global-bg-color);
+  text-align: center;
+}
+.research-figure-placeholder span { color: var(--global-text-color); font-size: .9rem; }
+.research-detail-figure .research-figure-placeholder { max-height: 25rem; }
+.research-detail h2 { margin-top: 2rem; }
+.research-results-table { overflow-x: auto; margin: 1.5rem 0; }
+.research-results-table table { width: 100%; font-size: .9rem; }
+.research-results-table caption { caption-side: top; color: var(--global-text-color-light); font-size: .85rem; }
+.research-results-table th, .research-results-table td { padding: .65rem .75rem; border-bottom: 1px solid var(--global-divider-color); }
+.research-project-status { padding: 1rem 1.25rem; margin: 2rem 0; border-left: 2px solid var(--global-theme-color); }
+.research-project-status p:last-child { margin-bottom: 0; }
 @media (max-width: 767px) {
   .research-overview { grid-template-columns: 1fr; gap: 1rem; }
   .research-overview-figure { max-width: 32rem; }

@@ -206,7 +206,6 @@ exclude:
   - _pages/books.md
   - _news
   - _includes/news.liquid
-  - _projects/inverse.md
   - _books/
   #- assets/json/resume.json
 keep_files:
