@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "publications",
-          description: "",
+          description: "Published papers, accepted articles, and manuscripts under review.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -257,9 +257,14 @@ ninja.data = [{
               window.location.href = "/research/electro-optic-reservoir-computing/";
             },},{id: "research-one-port-acoustic-resonators",
           title: 'One-port acoustic resonators',
-          description: "Investigating acoustic confinement and leakage through device modeling, fabrication, and microscopy.",
+          description: "Imaging acoustic leakage and higher-order modes in gigahertz resonators, and designing and fabricating an AlN-on-silicon resonator.",
           section: "Research",handler: () => {
               window.location.href = "/research/one-port-acoustic-resonators/";
+            },},{id: "research-surface-acoustic-waves-and-nanoscale-imaging",
+          title: 'Surface acoustic waves and nanoscale imaging',
+          description: "Background on SAW devices, their nanofabrication, and imaging GHz acoustic waves with microwave impedance microscopy.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/saw-background/";
             },},{id: "research-vector-optical-mode-demultiplexing",
           title: 'Vector optical-mode demultiplexing',
           description: "Recovering vector optical modes through Fourier-domain analysis and experimental verification with a spatial light modulator.",
